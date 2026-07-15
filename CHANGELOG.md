@@ -2,6 +2,12 @@
 
 Semantic versioning applies. Breaking changes to the instruments (the Definition of Done template or the Confirmation Record template) increment the major version. New lenses, files or prompt rounds increment the minor version. Corrections increment the patch version.
 
+## v1.1.0 (2026-07-15)
+
+Ecosystem classification release. No change to the doctrine, lenses or instruments.
+
+- README: added Part of the Ecosystem section (Layer 1, doctrine and method) linking the canonical map in rolldabones/rolldabones and five nearest neighbors; Contents updated; version table and citation bumped to v1.1.0.
+
 ## v1.0.0 (2026-07-10)
 
 Initial publication.

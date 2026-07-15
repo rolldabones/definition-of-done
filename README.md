@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.0.0 | 2026-07-10 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.1.0 | 2026-07-15 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
@@ -29,6 +29,7 @@ AI can produce work. It cannot decide that work is done. This repository is abou
 - [Design Principles](#design-principles)
 - [A Note on the Closing](#a-note-on-the-closing)
 - [Related Work](#related-work)
+- [Part of the Ecosystem](#part-of-the-ecosystem)
 - [How to Cite](#how-to-cite)
 - [License](#license)
 - [Changelog](#changelog)
@@ -147,9 +148,19 @@ The GRC Workbook uses the mechanical watch as its recurring illustration and the
 - [GRCnext™ Copilot](https://github.com/rolldabones/grcnext-copilot): evidence-led assessment of executable optionality at enterprise scale. Its rule that only verified evidence earns verified credit is the program-level analogue of the confirmation record, and completed confirmation records are the kind of recoverable evidence its method credits.
 - **Final Liability Rests with the Human** (book): [github.com/rolldabones/final-liability-rests-with-the-human-book-wip](https://github.com/rolldabones/final-liability-rests-with-the-human-book-wip).
 
+## Part of the Ecosystem
+
+This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function inside the four-repository suite; the canonical map places all repositories in one structure. Nearest neighbors:
+
+- [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen) - the method whose Gates 1, 6 and 7 this repository is the depth work inside
+- [origami-method](https://github.com/rolldabones/origami-method) - the workflow discipline whose context packet begins with a definition of done
+- [grc-workbook](https://github.com/rolldabones/grc-workbook) - the enterprise instrument whose evidence and sign-off modules the Confirmation Record serves
+- [ai-governance-for-boards](https://github.com/rolldabones/ai-governance-for-boards) - the board mandate that makes the accountable Human's decision rights explicit
+- [AI-Governance-Academy](https://github.com/rolldabones/AI-Governance-Academy) - the delivery programs this material is taught through
+
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.0.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.1.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
 
 ## License
 
