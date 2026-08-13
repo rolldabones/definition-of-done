@@ -3,7 +3,7 @@
 *Done is a decision, not an observation.*
 
 **Son-U Michael Paik**
-CEO, GRC Solutions Korea | General Counsel, BABL AI
+CEO, GRC Solutions Korea | former General Counsel, BABL AI
 [www.grcskorea.com](http://www.grcskorea.com)
 
 | Version | Date | Status | License |
@@ -176,7 +176,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## About the Author
 
-Son-U Michael Paik is an attorney, AI auditor and governance architect with more than 25 years of experience designing risk and compliance systems for cross-border institutions in regulated, high-stakes sectors across Asia, Europe and the United States. He is General Counsel at BABL.ai, a global AI audit provider, and Founder and Chief Executive Officer of GRC Solutions Korea. He holds a Juris Doctor from Columbia Law School, a Master of Business Administration from the Yale School of Management and a Bachelor of Arts in Economics from Syracuse University, is admitted to the New York Bar and holds AI audit certifications from BABL.ai and ForHumanity, including certifications under the EU AI Act, GDPR and the Digital Services Act.
+Son-U Michael Paik is an attorney, AI auditor and governance architect with more than 25 years of experience designing risk and compliance systems for cross-border institutions in regulated, high-stakes sectors across Asia, Europe and the United States. He is the former General Counsel of BABL.ai, a global AI audit provider, and Founder and Chief Executive Officer of GRC Solutions Korea. He holds a Juris Doctor from Columbia Law School, a Master of Business Administration from the Yale School of Management and a Bachelor of Arts in Economics from Syracuse University, is admitted to the New York Bar and holds AI audit certifications from BABL.ai and ForHumanity, including certifications under the EU AI Act, GDPR and the Digital Services Act.
 
 **GRC Solutions Korea:** [www.grcskorea.com](http://www.grcskorea.com)
 **LinkedIn:** [linkedin.com/in/sonupaik](https://linkedin.com/in/sonupaik)
