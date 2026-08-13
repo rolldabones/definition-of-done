@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | former General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.1.0 | 2026-07-15 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.1.1 | 2026-08-13 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
