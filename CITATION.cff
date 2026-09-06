@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you cite this work, please use the metadata below."
+title: "The Definition of Done Is the Work of the Human"
+authors:
+  - family-names: "Paik"
+    given-names: "Son-U Michael"
+version: 1.1.2
+date-released: "2026-09-06"
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/rolldabones/definition-of-done"
+abstract: "The acceptance doctrine: how done is defined before work begins and confirmed before reliance, the depth work inside the Kitchen's Gates 1, 6 and 7."

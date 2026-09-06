@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | former General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.1.1 | 2026-08-13 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.1.2 | 2026-09-06 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
@@ -152,6 +152,8 @@ The GRC Workbook uses the mechanical watch as its recurring illustration and the
 
 This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function inside the four-repository suite; the canonical map places all repositories in one structure. Nearest neighbors:
 
+The three doctrines are used in this repository as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement. Where this repository restates a doctrine, it restates it at its own altitude and adds instruments, not doctrine (ECOSYSTEM.md protocol item 6).
+
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen) - the method whose Gates 1, 6 and 7 this repository is the depth work inside
 - [origami-method](https://github.com/rolldabones/origami-method) - the workflow discipline whose context packet begins with a definition of done
 - [grc-workbook](https://github.com/rolldabones/grc-workbook) - the enterprise instrument whose evidence and sign-off modules the Confirmation Record serves
@@ -160,7 +162,9 @@ This repository is part of the [rolldabones governance ecosystem](https://github
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.1.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.1.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+
+A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
 ## License
 
@@ -176,7 +180,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## About the Author
 
-Son-U Michael Paik is an attorney, AI auditor and governance architect with more than 25 years of experience designing risk and compliance systems for cross-border institutions in regulated, high-stakes sectors across Asia, Europe and the United States. He is the former General Counsel of BABL.ai, a global AI audit provider, and Founder and Chief Executive Officer of GRC Solutions Korea. He holds a Juris Doctor from Columbia Law School, a Master of Business Administration from the Yale School of Management and a Bachelor of Arts in Economics from Syracuse University, is admitted to the New York Bar and holds AI audit certifications from BABL.ai and ForHumanity, including certifications under the EU AI Act, GDPR and the Digital Services Act.
+Son-U Michael Paik is an attorney, AI auditor and governance architect with more than 25 years of experience designing risk and compliance systems for cross-border institutions in regulated, high-stakes sectors across Asia, Europe and the United States. He is the former General Counsel of BABL AI, a global AI audit provider, and Founder and Chief Executive Officer of GRC Solutions Korea. He holds a Juris Doctor from Columbia Law School, a Master of Business Administration from the Yale School of Management and a Bachelor of Arts in Economics from Syracuse University, is admitted to the New York Bar and holds AI audit certifications from BABL AI and ForHumanity, including certifications under the EU AI Act, GDPR and the Digital Services Act.
 
 **GRC Solutions Korea:** [www.grcskorea.com](http://www.grcskorea.com)
 **LinkedIn:** [linkedin.com/in/sonupaik](https://linkedin.com/in/sonupaik)
