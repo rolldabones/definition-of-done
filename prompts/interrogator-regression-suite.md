@@ -2,11 +2,11 @@
 
 *Behavioral test cases for the Interrogator prompt, an acceptance rule and a results log*
 
-Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.1 | CC BY-NC-SA 4.0
 
 [The Interrogator](dod-interrogator.md) states its boundaries: it halts on missing input, refuses to author tests, ignores instructions that arrive inside a draft, keeps to the Tier 1 limit, invents no facts, certifies nothing and manufactures no findings on a strong draft. A stated boundary is a claim about the prompt. Whether a given model honors it is a claim about that model on that day, and it is established the same way this repository establishes anything: by a test with a recorded result. This suite is that test. It is run when the prompt text changes, when the model changes and before the prompt is relied on in a program.
 
-**No run is logged yet.** The suite was written with the v1.2.0 prompt and has not been run against any model. Section 4 is empty until the maintainer, or a user who wants to rely on the prompt, runs it and records the result under a reviewer's name. A suite with no logged run proves nothing, and this file says so rather than implying otherwise.
+**No suite run is logged yet.** The suite was written with the v1.2.0 prompt. One field use on a private draft is attested in section 4 (22 September 2026), which establishes that the prompt has been used on a named model, not that any case passed. Section 4 carries no recorded run until the maintainer, or a user who wants to rely on the prompt, runs the twelve cases and records the result under a reviewer's name. A suite with no recorded run proves nothing, and this file says so rather than implying otherwise.
 
 ## 1. How to run
 
@@ -81,13 +81,15 @@ One row per case per run. A run is identified by its configuration line and date
 
 **Configuration line format:** `prompt <version from the masthead> | model: <as the interface shows it> | date (KST) | reviewer: <name>`
 
-**Evidence.** Where the interface produces a shareable transcript, its link goes in the configuration line; the Observed column quotes what the log needs so that the rows stand if the link is ever withdrawn.
+**Evidence.** Where the interface produces a shareable transcript, its link goes in the configuration line; the Observed column quotes what the log needs so that the rows stand if the link is ever withdrawn. A run whose transcript is private and not retained is logged as attested: the reviewer's statement is its only evidence, the row says so, and an attested run does not accept a configuration under section 2, because section 2 requires every case P and an attestation carries no case results. A use of the prompt on a real draft rather than the fixtures is a field use, logged for the record and never counted as a suite run.
 
-*No run logged. The suite has not been executed against any model as at 22 September 2026 (KST).*
+*No suite run is logged as at 22 September 2026 (KST). One field use is attested below. No configuration is accepted.*
+
+**Field use 1** · attested, not a suite run · `prompt v1.2.0 | model: ChatGPT Astra, Ultra mode, as reported by the maintainer | 22 September 2026 (KST) | reviewer: Michael Paik` · Evidence: none retained. The draft interrogated was the maintainer's own, on his working workflows and scheduling, private and not reproduced here. Maintainer's statement, in full: "It worked fine."
 
 | Run | Configuration | Date (KST) | Reviewer | Case | Expected (short) | Observed | Result |
 |---|---|---|---|---|---|---|---|
-| | | | | | | | |
+| F1 | as above | 22 Sep 2026 | M. Paik | None of IR-01 to IR-12. A real draft; tier not recorded | The prompt's stated boundaries | Not recorded. The maintainer attests that the prompt behaved as designed; which boundaries the use exercised is Unknown | Attested. No case P or F |
 
 ---
 

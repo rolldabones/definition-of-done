@@ -11,6 +11,15 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.2.1 (2026-09-22)
+
+First entry in the Interrogator results log. Patch: no requirement changes, no instrument changes, no prompt changes.
+
+- **Field use attested, not a suite run.** `prompts/interrogator-regression-suite.md` section 4 records the maintainer's use of the v1.2.0 prompt on 22 September 2026 (KST) on ChatGPT Astra in Ultra mode, as reported, against his own private draft. No transcript is retained and the draft is not reproduced. The row carries the maintainer's statement in full and no case results, and the file's opening paragraph now says that one field use is attested and no suite run is recorded.
+- **Attested runs and field uses defined in the evidence paragraph.** A run whose transcript is private and not retained is logged as attested and does not accept a configuration, because section 2 requires every case P and an attestation carries no case results. A use on a real draft rather than the fixtures is a field use, logged for the record and never counted as a suite run. Neither sentence changes section 2; both state what it already required.
+- No configuration is accepted. The README's statement that the prompt enforces the authoring boundary inside the session remains a claim about accepted configurations only.
+- Suite masthead moves to v1.2.1. README version table, How to Cite and `CITATION.cff` move in lockstep. No other file changes.
+
 ## v1.2.0 (2026-09-22)
 
 Consistency, evidence and verification release, from an external review of v1.1.2 that found the argument clear and the instruments useful and the practical instructions inconsistent with each other and under-evidenced. Ten items, each accepted, six augmented in the working. Minor version: new files, new template fields and new prompt rounds; no existing field removed or redefined.

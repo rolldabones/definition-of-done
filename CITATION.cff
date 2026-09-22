@@ -4,7 +4,7 @@ title: "The Definition of Done Is the Work of the Human"
 authors:
   - family-names: "Paik"
     given-names: "Son-U Michael"
-version: 1.2.0
+version: 1.2.1
 date-released: "2026-09-22"
 license: CC-BY-NC-SA-4.0
 repository-code: "https://github.com/rolldabones/definition-of-done"
