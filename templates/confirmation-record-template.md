@@ -1,8 +1,8 @@
 # Confirmation Record (Instrument)
 
-Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.0.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0
 
-**Complete before reliance or release.** One Human, one artifact, one standard, one signature, one scope. The completed record joins the evidence pack. If the Definition of Done shows unrecorded changes, stop: reconstruct and record before confirming anything.
+**Complete before reliance or release.** One Human, one artifact, one standard, one signature, one scope. The completed record joins the evidence pack. Tier 1 work completes Sections 0, 1, 5 and 6; Tier 2 and Tier 3 complete every section, as the README's [tier table](../README.md#proportionate-use-the-tier-table) states. If the Definition of Done shows unrecorded changes, stop: reconstruct and record before confirming anything.
 
 ---
 
@@ -16,12 +16,15 @@ Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.0.0
 | Confirmer (named Human) and role (Owner / Approver) | |
 | Date, time and timezone | |
 | Material available to confirmer since (date and time) | |
+| Method version: the release of this repository this record is made under (the README's version table; see Governing methods and versions) | definition-of-done v |
+| Instrument version | Confirmation Record template v1.2.0 |
+| Kitchen version applied (tiers, gates and roles) | Slow AI Kitchen v2.9.1 |
 
 ## Section 1. Test Results
 
 One row per test in the definition. No composites. Any fail forces the outcome to Refuse or Amend and confirm.
 
-| # | Test | Pass / Fail | Evidence (what was checked, by whom, where filed) |
+| # | Test | Pass / Fail | Evidence (what was checked, population and sample, by whom, where filed) |
 |---|---|---|---|
 | 1 | | | |
 | 2 | | | |
@@ -47,10 +50,10 @@ One line each, aimed at the finished work.
 
 | Check | Result |
 |---|---|
-| Discard resurrection (selection tasks): strongest eliminated alternative named; would it still lose on what is known today? One paragraph. | |
+| Discard resurrection (selection tasks): strongest eliminated alternative named; would it still lose on what is known today? One paragraph. Was the candidate list and screening record kept as the work proceeded, and was any retrospective account of what was discarded labeled proposed and verified before it entered the register? | |
 | Trade-off honor: privileged criterion held? Subordinated criterion's floor held? Any silent re-trade found? If found: refused, or adopted by recorded amendment? | |
 | Distribution: tail tests passed everywhere? Bands and bases present on material estimates? Recurring process: sample examined (size, spread, worst run), not the showcase run? | |
-| Architecture: default posture honored (Tier 3: rejected until confirmed)? Presenter and verifier separate? Not-offered test answered? | |
+| Architecture: default posture honored (Tier 3: rejected until confirmed)? Presenter and verifier separate? Not-offered test answered, and the answer verified rather than taken as validation of the option set? | |
 
 ## Section 4. Residual Uncertainty
 
@@ -58,11 +61,21 @@ One line each, aimed at the finished work.
 |---|---|---|---|
 | | | | |
 
-## Section 5. Outcome (exactly one)
+## Section 5. Constraint Check and Outcome
 
-- [ ] **Confirm.** The definition as amended is met.
-- [ ] **Refuse.** Failed tests: #___. Returned to: ___________. A refusal is the gate working.
-- [ ] **Amend and confirm.** Amendment recorded in the definition's log (date: ______), reason and residual risk stated below, confirmed against the amended standard.
+**Constraint check, required before any outcome is chosen.** One row per imposed constraint in Section B of the definition.
+
+| Constraint | Source | Met / Waived / Unmet | If waived: by whom (the party Section B names), on what date, and recorded in the definition's amendment log? |
+|---|---|---|---|
+| | | | |
+
+While any applicable constraint is Unmet, the only outcome available is Refuse. Neither the Owner's signature nor the Approver's amends a constraint. Only a waiver by the party with authority over its source, recorded above and in the amendment log, changes its status.
+
+**Outcome (exactly one).**
+
+- [ ] **Confirm.** Every constraint is Met or Waived, and the definition as amended is met.
+- [ ] **Refuse.** Failed tests: #___. Unmet constraints: ___________. Returned to: ___________. A refusal is the gate working.
+- [ ] **Amend and confirm.** Every constraint is Met or Waived. The amendment is recorded in the definition's log (date: ______) with the original wording, the amended wording, the source of the requirement, the reason and the authority; no imposed constraint is amended; residual risk stated below; confirmed against the amended standard.
 
 Reason and residual risk (required for Amend and confirm):
 

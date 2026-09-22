@@ -2,7 +2,7 @@
 
 *Salience against materiality, the four distortions and the Salience Audit*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.0.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
 
 > **The closing.** *The most dangerous schedule in a closing binder is the one that is missing. Experienced counsel read disclosure schedules twice: once for what they say and once for what they fail to say. The second reading is harder, because absence has no page number.*
 
@@ -14,7 +14,7 @@ A Salient Factor is whatever commands attention at the moment of decision. Salie
 
 The work of the Human at both moments of done is to manage the gap. At define time, the risk is writing tests for what is salient about the task rather than what is material about the consequence. At confirm time, the risk is accepting work because its salient properties are excellent while its material defects sit quietly off the page.
 
-Neither risk is a character flaw. Attention is a finite resource allocated by cues, and presentation controls the cues. The decision science literature has documented the machinery for decades: availability, vividness and recency drive judged importance, and what is out of sight is priced at approximately zero. The doctrine here does not ask the Human to be immune. It asks the Human to run a procedure that does not depend on immunity.
+Neither risk is a character flaw. Attention is a finite resource allocated by cues, and presentation controls the cues. The decision science literature has documented the machinery for decades: what comes to mind easily is judged more frequent and more important (Tversky and Kahneman 1973 on availability), and what is out of sight is, in practice, priced at approximately zero. That second clause is the author's characterization of the first, not a separate finding. The sources for this and the other empirical claims in this repository are listed in [SOURCES.md](SOURCES.md), each with an evidence-status label. The doctrine here does not ask the Human to be immune. It asks the Human to run a procedure that does not depend on immunity.
 
 ## The four distortions of AI-mediated work
 
@@ -42,7 +42,7 @@ Material but non-salient factors cluster in known places. The list is a hunting 
 
 ## The Salience Audit
 
-Run the audit twice: on the task at define time and on the artifact at confirm time. It is seven questions. Answer them in writing. One line each is sufficient for Tier 1 and Tier 2 work under the Kitchen's tiers. Tier 3 work answers all seven with evidence pointers.
+Run the audit twice: on the task at define time and on the artifact at confirm time. It is seven questions. Answer them in writing. Depth follows the README's [tier table](README.md#proportionate-use-the-tier-table): Tier 1 work is not required to run the audit and answers one line each where it does, Tier 2 answers one line each and Tier 3 answers all seven with evidence pointers.
 
 1. **The hostile reader.** What would a hostile and competent reviewer look for first? Is there a test for it in the definition?
 2. **The quiet giant.** What is the least discussed element with the largest consequence if wrong?
@@ -52,7 +52,7 @@ Run the audit twice: on the task at define time and on the artifact at confirm t
 6. **The inherited agenda.** Every matter arrives already framed by someone: the requester, the counterparty, the draft, the tool. What does that framing make prominent, what does it bury and what did I never consider because it was never presented?
 7. **The absent evidence.** What document, number or authority should exist if the work is right, and is it attached?
 
-A definition of done for Tier 2 and above should carry at least one test that could only have come from the audit: a test for an absence, an assumption or a tail rather than for a visible feature of the expected artifact. If every test in the definition describes something the finished document will visibly contain, the definition was written by salience.
+A definition of done for Tier 2 and above carries at least one test that could only have come from the audit: a test for an absence, an assumption or a tail rather than for a visible feature of the expected artifact. At Tier 1 the same test is recommended. If every test in the definition describes something the finished document will visibly contain, the definition was written by salience.
 
 ## The rule
 

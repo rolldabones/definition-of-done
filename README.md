@@ -8,21 +8,33 @@ CEO, GRC Solutions Korea | former General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.1.2 | 2026-09-06 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.2.0 | 2026-09-22 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
 **Final Liability rests with the Human.**
 
+## Start Here
+
+Three links, in the order a first-time reader needs them. Everything after the Contents is the reasoning behind these instruments.
+
+1. **Define a task.** Complete the [Definition of Done instrument](templates/definition-of-done-template.md) before any AI touches the work. Low-stakes work completes three sections and writes one to three tests; the [tier table](#proportionate-use-the-tier-table) states what each tier completes.
+2. **Check the work.** Complete the [Confirmation Record](templates/confirmation-record-template.md) before anyone relies on the output. Three outcomes are lawful: confirm, refuse or amend and confirm.
+3. **Study an example.** The [Tier 1 example](examples/worked-example-tier-1-meeting-summary.md) is an internal meeting summary on one page, the minimum paperwork the method asks for. The [Tier 3 example](examples/worked-example-dpa-review.md) is a vendor DPA review with a refusal, a full claim register and a recorded amendment.
+
+The [Quick Start](00-quick-start.md) puts the whole loop on one page.
+
 ---
 
 ## Contents
 
+- [Start Here](#start-here)
 - [The Claim](#the-claim)
 - [Why the Definition of Done Is the Locus of the Three Doctrines](#why-the-definition-of-done-is-the-locus-of-the-three-doctrines)
 - [The Complication: Salient Factors](#the-complication-salient-factors)
 - [The Four Lenses](#the-four-lenses)
 - [Where This Sits](#where-this-sits)
+- [Proportionate Use: The Tier Table](#proportionate-use-the-tier-table)
 - [Repository Contents](#repository-contents)
 - [How to Use This Repository](#how-to-use-this-repository)
 - [Not the Scrum Definition of Done](#not-the-scrum-definition-of-done)
@@ -43,7 +55,7 @@ Work is done when it meets a standard that a named person can be held to. Nothin
 
 So done must be decided, and it must be decided twice.
 
-**Moment one: Define.** Before the work begins and before any AI touches the task, the Human states what done means: a small set of observable pass or fail tests anchored to consequence, not to effort. This is [Gate 1 of the Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen), stated there as three to seven tests covering substance, usability, constraints and sign-off. This repository is about what it takes to write those tests well.
+**Moment one: Define.** Before the work begins and before any AI touches the task, the Human states what done means: a small set of observable pass or fail tests anchored to consequence, not to effort. This is [Gate 1 of the Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen), stated there as three to seven tests covering substance, usability, constraints and sign-off, abbreviated to one to three tests for Tier 1 work. This repository is about what it takes to write those tests well, and the [tier table](#proportionate-use-the-tier-table) below states what each tier completes.
 
 **Moment two: Confirm.** After verification and before reliance, a named Human decides that the definition is met and takes the outcome. Review inspects the work. Confirmation attaches the Human to it. These are Gates 6 and 7 of the Kitchen. This repository is about what it takes to make that decision honestly.
 
@@ -88,9 +100,47 @@ This repository is a companion to a four-repository suite. The board directs, th
 | [AI Governance Academy](https://github.com/rolldabones/AI-Governance-Academy) | Advisors and organizations engaging structured delivery | Deliver. Engagement templates for six structured programs | CC BY-NC-SA 4.0 |
 | **The Definition of Done** (this repository) | The Human at the moment of acceptance | Decide. How done is defined and confirmed under the three doctrines | CC BY-NC-SA 4.0 |
 
-The relationship to the Kitchen is deliberate and narrow. The Kitchen establishes Gate 1 (Definition of Done) and confirms against it at Gate 6 (Verification and Validation) and Gate 7 (Human Release Decision). The Kitchen tells you where the gates are. This repository is the depth work inside those gates: what a Human must actually think about to define and confirm done on a real task with real stakes. Nothing here modifies the method. Where this repository and the Kitchen conflict, the Kitchen controls.
+The relationship to the Kitchen is deliberate and narrow. The Kitchen establishes Gate 1 (Definition of Done) and confirms against it at Gate 6 (Verification and Validation) and Gate 7 (Human Release Decision). The Kitchen tells you where the gates are. This repository is the depth work inside those gates: what a Human must actually think about to define and confirm done on a real task with real stakes. Nothing here modifies the method. Where this repository and the Kitchen conflict, the Kitchen controls, at the version pinned below.
+
+### Governing methods and versions
+
+The rule that the Kitchen controls is a rule about a specific text, so the text is named. This release was written against the versions below, and both instruments carry a method version field that names the release of this repository under which a record was made. A later release of a governing document does not re-govern a record made before it: the record is read against the versions in force when it was confirmed, and this table is how a reader recovers them.
+
+| Governing document | Version this release was written against | What it governs here |
+|---|---|---|
+| [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | v2.9.1 (2026-09-08, KST) | Gates 1, 6 and 7, the three risk tiers, the Tier Application Map and the task roles |
+| [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) | v1.1.1 (2026-09-06, KST) | The three doctrines as stated, including the two limbs of Informed Intent |
+| [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) | v1.7.18 (2026-09-07, KST) | This repository's classification (Layer 1) and the maintenance protocol |
+| [GRC Workbook](https://github.com/rolldabones/grc-workbook) | v4.3.1 (2026-09-08, KST) | Module 10, the five conditions of a valid authorization; Module 11, the evidence pack |
+| [Risk-Informed Decision Making Prompt](https://github.com/rolldabones/risk-informed-decision-making-prompt) | v1.5.0 (2026-09-08) | A2 imposed constraints, A5 common tolerances, A6 reopen conditions, the Bias Check and the uncertainty treatment |
+
+The table changes only when this repository is re-verified against a governing document, and every change is logged in [CHANGELOG.md](CHANGELOG.md). A record made under an earlier release of this repository is read against that release's table.
 
 The relationship to the Academy is instructional. The material here is designed to be taught: it supplies the doctrinal depth for the Definition of Done segments of the Practitioner Academy and the Executive Workshop, and the [worked example](examples/worked-example-dpa-review.md) and [interrogation prompt](prompts/dod-interrogator.md) are built to run as classroom exercises.
+
+## Proportionate Use: The Tier Table
+
+The Kitchen's three risk tiers govern this repository without modification, and this table is the single authoritative statement of what each tier requires here. Every other file that states a tier requirement defers to it. The tier definitions and the number of tests at Gate 1 are the Kitchen's (v2.9.1, Tier Application Map); the remaining rows are this repository's instruments applied at each tier. Tiering adjusts depth. It never deletes a gate, and a function may set stricter requirements through its tool registry under Kitchen Step 10, never looser ones for Tier 3 work.
+
+| Requirement | Tier 1 (low stakes) | Tier 2 (moderate stakes) | Tier 3 (high stakes) |
+|---|---|---|---|
+| Kitchen examples | Rough brainstorming, non-public internal drafts, formatting, idea generation | Internal analyses, training materials, client-facing drafts under review, process documentation | Decisions affecting customers, employees or regulated operations; legal, compliance or risk determinations; external representations; automation tied to action |
+| Pass or fail tests (Section A) | 1 to 3 | 3 to 7 | 3 to 7 |
+| Definition of Done sections completed | 0, A and H. An imposed constraint that applies is written as one of the tests and marked as a constraint | Every applicable section | Every applicable section; the completed instrument is retained as evidence |
+| A test from the Salience Audit (an absence, an assumption or a tail) | Recommended | Required, at least one | Required, at least one |
+| Salience Audit (Section E) | Not required; one line each where run | One line each | All seven, with evidence pointers |
+| Trade-off statement (Section C) | Not required | Required | Required |
+| Issues-considered list (Section F) | Not required | Required | Required |
+| Elimination record and discard register (Section F), kept as the work proceeds | Where the task selects among alternatives | Where the task selects among alternatives | Where the task selects among alternatives |
+| Roles | The individual is Owner by default and may hold every role; review is still a separate act against the definition | Named Reviewer and Owner; Builder and Reviewer are different people wherever the team allows | Reviewer, Approver and Owner are distinct people; escalation path named |
+| Who confirms | The Owner, on their own review evidence | The Owner, on the Reviewer's evidence | The Owner, with the Approver's sign-off, on the Reviewer's second review |
+| Amendment authority (Section H) | Owner | Owner | Owner with the Approver's sign-off |
+| Imposed constraints | Never amendable by the Owner or Approver at any tier; only the party with authority over the source can waive, and the waiver is recorded | Same | Same |
+| Confirmation Record sections completed | 0, 1, 5 and 6 | Every section | Every section; remediation or rollback plan on file before release |
+| External deployment (Kitchen Gate 7) | None without verification | Reviewer sign-off before release | Sign-off record on file |
+| Interrogator prompt | Rounds 1 and 2, at most five findings | All five rounds | All five rounds |
+
+Where this table and the Kitchen's Tier Application Map are read to conflict, the Kitchen controls at the version pinned in [Where This Sits](#where-this-sits).
 
 ## Repository Contents
 
@@ -104,21 +154,25 @@ The relationship to the Academy is instructional. The material here is designed 
 | [04-choice-architecture.md](04-choice-architecture.md) | Defaults, anchors, framing and the asymmetry of accepting against rejecting | AI drafted the options or the work you are about to accept |
 | [05-trade-offs.md](05-trade-offs.md) | The settlement behind every definition, constraints against preferences and trade drift | Criteria compete and something must give |
 | [06-averages-variances-uncertainties.md](06-averages-variances-uncertainties.md) | The flaw of averages, tail tests, the single-run illusion and uncertainty routing | The work carries numbers, estimates or recurring runs |
-| [07-the-confirmation.md](07-the-confirmation.md) | The confirmation protocol, the three lawful outcomes and confirming under pressure | You are about to say the work is done |
+| [07-the-confirmation.md](07-the-confirmation.md) | The confirmation protocol, the three lawful outcomes, the constraint bar on amendment and confirming under pressure | You are about to say the work is done |
+| [SOURCES.md](SOURCES.md) | The published sources behind the chapters' empirical claims, with an evidence-status label on each claim | You want to know which claims rest on research and which are practitioner heuristics |
 | [templates/definition-of-done-template.md](templates/definition-of-done-template.md) | The define-side instrument | Moment one |
 | [templates/confirmation-record-template.md](templates/confirmation-record-template.md) | The confirm-side instrument | Moment two |
-| [examples/worked-example-dpa-review.md](examples/worked-example-dpa-review.md) | One task run through both instruments, including a refusal | You want to see the method on a real deliverable |
+| [examples/worked-example-tier-1-meeting-summary.md](examples/worked-example-tier-1-meeting-summary.md) | A Tier 1 task through both instruments on one page: the minimum paperwork | You want to see proportionate use on low-stakes work |
+| [examples/worked-example-dpa-review.md](examples/worked-example-dpa-review.md) | A Tier 3 task through both instruments, including a refusal, a full claim register and a recorded amendment | You want to see the method on a real deliverable |
 | [prompts/dod-interrogator.md](prompts/dod-interrogator.md) | A model-agnostic prompt that interrogates a draft definition without authoring it | You want the discipline challenged inside the AI session |
+| [prompts/interrogator-regression-suite.md](prompts/interrogator-regression-suite.md) | Behavioral test cases for the Interrogator, an acceptance rule and a results log | You are running the prompt on a new model or changing its text |
+| [tools/check_release.py](tools/check_release.py) | The release consistency check: versions, dates, links, anchors, closing lines, house style | Before every release; the GitHub Actions workflow runs it on every push |
 
 ## How to Use This Repository
 
-**One professional, one task, today.** Start with the [Quick Start](00-quick-start.md): the minimal loop and a worked miniature, one page. It needs nothing else in the repository to work.
+**One professional, one task, today.** Start with the [Quick Start](00-quick-start.md): the minimal loop and a worked miniature, one page. It needs nothing else in the repository to work. The [tier table](#proportionate-use-the-tier-table) states what your tier completes, and the [Tier 1 example](examples/worked-example-tier-1-meeting-summary.md) shows the minimum.
 
 **One professional, one task, properly.** Read [01](01-done-is-a-decision.md) and [02](02-salient-factors.md), then open the [Definition of Done template](templates/definition-of-done-template.md) and write the definition before you prompt anything. Consult the lens files as the task demands: [03](03-order-of-elimination.md) when selecting, [04](04-choice-architecture.md) when AI frames the options, [05](05-trade-offs.md) when criteria compete, [06](06-averages-variances-uncertainties.md) when the work carries numbers.
 
 **Confirming today.** Read [07](07-the-confirmation.md) and complete the [Confirmation Record](templates/confirmation-record-template.md). Three outcomes are available. Pick one and sign it.
 
-**A team lead or trainer.** Run the [worked example](examples/worked-example-dpa-review.md) as an exercise: give the team the task, have them write the definition cold, then compare against the worked instrument. Load the [interrogator prompt](prompts/dod-interrogator.md) as the session prompt so the discipline is enforced inside the tool.
+**A team lead or trainer.** Run the [worked example](examples/worked-example-dpa-review.md) as an exercise: give the team the task, have them write the definition cold, then compare against the worked instrument. Load the [interrogator prompt](prompts/dod-interrogator.md) as the session prompt so the discipline is enforced inside the tool, and run the [regression suite](prompts/interrogator-regression-suite.md) once on the model your team uses before relying on the prompt's refusals.
 
 **An Academy facilitator.** The seven numbered files map to a half-day module. Files 01 and 02 are the instruction block, files 03 through 06 are breakout lenses and file 07 plus the templates are the closing exercise.
 
@@ -130,7 +184,7 @@ The term Definition of Done has an honorable lineage in agile software practice,
 
 1. **The definition precedes the draft.** A definition written after the output exists is a rationalization with a checklist format. The only anchor that can compete with the model's anchor is the one set before the model speaks.
 2. **The tool may question the definition. It may not author it.** AI is a capable interrogator of acceptance criteria and a disqualified author of them, because the author of the standard controls the outcome of the test. The [interrogator prompt](prompts/dod-interrogator.md) enforces this boundary in the session itself.
-3. **Confirmation has three lawful outcomes.** Confirm, refuse or amend and confirm, each with a record. There is no fourth outcome. Done enough given the deadline is an amendment seeking anonymity.
+3. **Confirmation has three lawful outcomes.** Confirm, refuse or amend and confirm, each with a record. There is no fourth outcome. Done enough given the deadline is an amendment seeking anonymity, and an imposed constraint left unmet is not amendable by anyone who does not hold authority over its source.
 4. **Salience is data about presentation, not about the world.** Prominence tells you what the presentation rewards. It tells you nothing about consequence until you check.
 5. **One doctrine set across the suite.** Slow AI, Informed Intent and Final Liability are used here exactly as stated in the companion repositories. This repository adds instruments, not doctrine.
 
@@ -162,7 +216,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.1.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.2.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

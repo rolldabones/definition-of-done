@@ -2,7 +2,7 @@
 
 *The protocol, the three lawful outcomes and confirming under pressure*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.0.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
 
 > **The closing.** *At closing, someone signs a bring-down certificate: the representations made at signing remain true today. The certificate exists because time passed between the definition and the confirmation, and the signature exists because a certificate nobody signs is a memo. The signature is the point.*
 
@@ -16,7 +16,7 @@ The confirmation is not review, not consensus and not the absence of objection. 
 
 ## Who confirms
 
-The Kitchen's tier and role architecture governs without modification. At Tier 1 the individual professional is Owner by default and confirms their own work against an abbreviated definition. At Tier 2 a named Reviewer tests the work against the definition and the Owner confirms on that evidence. At Tier 3 the Reviewer, Approver and Owner are distinct people, the release decision carries the Approver's sign-off and a remediation or rollback plan is on file before release.
+The Kitchen's tier and role architecture governs without modification, and the README's [tier table](README.md#proportionate-use-the-tier-table) is the authoritative statement of who does what at each tier. At Tier 1 the individual professional is Owner by default and confirms their own work against an abbreviated definition, completing Sections 0, 1, 5 and 6 of the record. At Tier 2 a named Reviewer tests the work against the definition and the Owner confirms on that evidence. At Tier 3 the Reviewer, Approver and Owner are distinct people, the release decision carries the Approver's sign-off and a remediation or rollback plan is on file before release.
 
 Two rules hold at every tier above the first. The tool never confirms, for the structural reasons given in [Choice Architecture](04-choice-architecture.md). And verification is a distinct act performed against the definition with its own evidence log, never a re-reading of one's own draft with warmer eyes. The Kitchen permits one professional to hold several roles in small settings, and its Cookbook runs Tier 1 and Tier 2 solo; what it never permits is the roles collapsing into a single act. Wherever the team allows, the Reviewer is a different person from the Builder, and at Tier 3 they must be. An Owner who also built the work may still confirm at Tier 2, because the independence the method requires sits in the verification, but they confirm on the review evidence, not on their own impression of their own output.
 
@@ -26,14 +26,14 @@ Refusal is different. Refusal requires no independence and no seniority. Anyone 
 
 Run in order. Depth scales with tier. The [Confirmation Record template](templates/confirmation-record-template.md) implements each step as a field.
 
-1. **Fix the standard.** Retrieve the definition of done with its amendment log. If the definition changed and the log does not show it, stop: the standard is compromised and the first task is to reconstruct and record what happened, not to confirm against a document that drifted.
+1. **Fix the standard.** Retrieve the definition of done with its amendment log, and note the method version it names, because the record is read against that release of this repository and the governing versions pinned in its README. If the definition changed and the log does not show it, stop: the standard is compromised and the first task is to reconstruct and record what happened, not to confirm against a document that drifted.
 2. **Test by test, with evidence.** Each pass or fail test receives a result and an evidence pointer: the checked source, the recomputed number, the second review, the sample examined. "Looks right" is not evidence. This is Gate 6 of the Kitchen producing its evidence and validation log.
 3. **Run the Salience Audit against the artifact.** The seven questions from [Salient Factors](02-salient-factors.md), now aimed at the finished work. The audit at confirm time hunts what the artifact's own polish hides: absences, naked assertions, inherited agendas.
 4. **Resurrect the strongest discard.** For selection tasks, the one-paragraph test from [Order of Elimination](03-order-of-elimination.md): would the strongest eliminated alternative still lose on what is known today?
 5. **Check the settlement.** The trade-off honor check from [Trade-Offs](05-trade-offs.md): did the work keep the privileged criterion and the subordinated criterion's floor, or did it quietly re-trade?
 6. **Check the distribution.** The tail tests and bands from [Averages, Variances and Uncertainties](06-averages-variances-uncertainties.md), and for recurring processes, the sample rather than the showcase run.
 7. **Classify the residual.** What remains unknown, of what type (aleatory, epistemic, endpoint) and why release is defensible anyway.
-8. **Decide.** One of three outcomes, below, with the scope of release stated: what the work may be used for, by whom and until what condition or date. Release or act only within defined scope, in the Kitchen's words.
+8. **Check the constraints, then decide.** Before any outcome is chosen, every imposed constraint in Section B of the definition is marked met, waived by the party with authority over its source with the waiver recorded, or unmet. An unmet constraint closes two of the three outcomes: neither confirm nor amend and confirm is available, whatever the deadline and whoever is signing. Then one of the three outcomes, below, with the scope of release stated: what the work may be used for, by whom and until what condition or date. Release or act only within defined scope, in the Kitchen's words.
 9. **File and feed.** The record joins the evidence pack in the sense of Workbook Module 11 (the artifact that defends the decision in retrospect) and its lessons feed the post-action review of Kitchen Step 9. At organizational scale the pattern of confirmations and refusals is exactly the operational data the tool registry and audit cycle of Steps 10 through 12 run on.
 
 ## The three lawful outcomes
@@ -42,7 +42,7 @@ Run in order. Depth scales with tier. The [Confirmation Record template](templat
 
 **Refuse.** The definition is not met. The refusal names the failed tests and returns the work. A refusal is a successful operation of the method, not a failure of it: the gate did what gates are for. Organizations that treat refusals as delivery failures are training their Humans to stop finding them.
 
-**Amend and confirm.** The work does not meet the definition as written, and the definition, on what is now known, was wrong or is being knowingly relaxed. The amendment is recorded with reason, authority and date, the residual risk of the relaxation is stated and the confirmation proceeds against the amended standard under the amender's name. Amendment authority follows ownership: the Owner at Tiers 1 and 2, the Owner with the Approver's sign-off at Tier 3.
+**Amend and confirm.** The work does not meet the definition as written, and the definition, on what is now known, was wrong or is being knowingly relaxed. The amendment is recorded with the original criterion, the amended criterion, the source of the requirement, the reason, the authority and the date; the residual risk of the relaxation is stated; and the confirmation proceeds against the amended standard under the amender's name. Amendment authority follows ownership: the Owner at Tiers 1 and 2, the Owner with the Approver's sign-off at Tier 3. It stops at imposed constraints. A test that restates a legal, contractual, policy or instructed floor is not the Owner's to relax and not the Approver's either; only the party with authority over the source can waive it, and until that waiver is recorded the outcome for an unmet constraint is refuse. Amend and confirm exists to relax preferences honestly. It does not exist to relax floors quietly.
 
 There is no fourth outcome. "Substantially done", "done enough given the deadline" and "done pending cleanup" are refusals wearing a deadline, or amendments seeking anonymity. The method does not forbid releasing work below the original standard. It forbids doing so namelessly. If the deadline forces release below the definition, that is an amendment: record it, own it, state what risk rides out with the work. That is what Informed Intent looks like under pressure, and it is the difference between a professional judgment and a quiet hope.
 

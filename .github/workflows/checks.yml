@@ -1,0 +1,23 @@
+# Release consistency check for rolldabones/definition-of-done.
+# Runs tools/check_release.py on every push and pull request. It reads; it never writes.
+# What the script checks, and why, is documented at the top of the script and in
+# CHANGELOG.md under Versioning.
+name: checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  release-consistency:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository with its tags
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Run the release consistency check
+        run: python3 tools/check_release.py .

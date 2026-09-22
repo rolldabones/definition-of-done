@@ -2,7 +2,7 @@
 
 *The minimal loop, one page*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.0.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
 
 For any task whose output someone will rely on. Ten minutes of governance around any amount of AI. Nothing here requires reading the rest of the repository first.
 
@@ -10,15 +10,15 @@ For any task whose output someone will rely on. Ten minutes of governance around
 
 ## The loop
 
-1. **Define done before you prompt.** Write three to seven pass or fail tests for the finished work. Each test is observable, is anchored to what the work must do in the world and names the evidence that will establish it. At least one test must target something the finished document will not visibly contain: an absence, an assumption or a worst case. Use Section A of the [instrument](templates/definition-of-done-template.md) and skip the rest at low stakes.
+1. **Define done before you prompt.** Write the pass or fail tests for the finished work: one to three for Tier 1 (low-stakes) work, three to seven for Tier 2 and Tier 3, as the [tier table](README.md#proportionate-use-the-tier-table) states. Each test is observable, is anchored to what the work must do in the world and names the evidence that will establish it. At Tier 2 and above at least one test must target something the finished document will not visibly contain: an absence, an assumption or a worst case; at Tier 1 that is recommended. Tier 1 work completes Sections 0, A and H of the [instrument](templates/definition-of-done-template.md) and nothing else; the tier table states what the other tiers complete.
 2. **Do your first pass by hand.** Read the source, sketch the structure, form a view. This is the Slow AI Kitchen's Manual First Pass and it is not optional: a Human who has not worked the task cannot evaluate a machine that has.
 3. **Use the AI inside the frame.** Draft, challenge, expand, summarize, against the definition, at the speed you can verify.
 4. **Verify test by test, with evidence.** Not "looks right". What was checked, against what, by whom.
-5. **Decide, in writing, with your name.** Confirm, refuse or amend the definition openly and own the residual risk. Those are the only three outcomes. Record the decision and the scope of release on the [Confirmation Record](templates/confirmation-record-template.md).
+5. **Decide, in writing, with your name.** Confirm, refuse or amend the definition openly and own the residual risk. Those are the only three outcomes, and amendment stops at any imposed constraint: a legal, contractual or policy floor the work has not met can be waived only by whoever holds authority over it, never by the deadline. Record the decision and the scope of release on the [Confirmation Record](templates/confirmation-record-template.md): Sections 0, 1, 5 and 6 at Tier 1, every section above it.
 
 ## A worked miniature
 
-Task: brief management on a newly adopted regulation before Friday's call. Moderate stakes: internal, but decisions follow from it.
+Task: brief management on a newly adopted regulation before Friday's call. Moderate stakes (Tier 2): internal, but decisions follow from it, so the definition carries three to seven tests and at least one of them hunts an absence.
 
 The definition, written before any prompt:
 
@@ -37,7 +37,7 @@ When time runs out and the work does not meet the definition, three honest outco
 
 ## Where to go deeper
 
-The task selects among options: [Order of Elimination](03-order-of-elimination.md). The AI framed the options or drafted the work you are about to accept: [Choice Architecture](04-choice-architecture.md). Criteria compete and something must give: [Trade-Offs](05-trade-offs.md). The work carries numbers, estimates or recurring runs: [Averages, Variances and Uncertainties](06-averages-variances-uncertainties.md). You are about to say the work is done: [The Confirmation](07-the-confirmation.md). The full thesis: [Done Is a Decision](01-done-is-a-decision.md) and [Salient Factors](02-salient-factors.md).
+The task selects among options: [Order of Elimination](03-order-of-elimination.md). The AI framed the options or drafted the work you are about to accept: [Choice Architecture](04-choice-architecture.md). Criteria compete and something must give: [Trade-Offs](05-trade-offs.md). The work carries numbers, estimates or recurring runs: [Averages, Variances and Uncertainties](06-averages-variances-uncertainties.md). You are about to say the work is done: [The Confirmation](07-the-confirmation.md). The full thesis: [Done Is a Decision](01-done-is-a-decision.md) and [Salient Factors](02-salient-factors.md). The minimum paperwork on a low-stakes task: the [Tier 1 example](examples/worked-example-tier-1-meeting-summary.md).
 
 ---
 
