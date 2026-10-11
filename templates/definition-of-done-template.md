@@ -1,6 +1,6 @@
 # Definition of Done (Instrument)
 
-Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.2 | CC BY-NC-SA 4.0
 
 **Complete before any AI touches the task.** The README's [tier table](../README.md#proportionate-use-the-tier-table) is the authoritative statement of what each tier completes. Tier 1 work completes Sections 0, A and H only, with one to three tests, and writes any imposed constraint that applies as one of those tests, marked as a constraint. Tier 2 and Tier 3 complete every applicable section; in Section F the elimination fields apply only where the task selects among alternatives, while the issues-considered field applies to every task. Tier 3 retains this instrument as evidence. Where a field does not apply, write "n/a" and the reason. Where a field cannot be completed, write "Unknown" and treat closing it as part of the task.
 
@@ -18,8 +18,8 @@ Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0
 | Decision the output supports | |
 | Non-recoverable domain, if any (legal, safety, regulatory, financial, reputational) | |
 | Method version: the release of this repository this definition is made under (the README's version table; see Governing methods and versions) | definition-of-done v |
-| Instrument version | Definition of Done template v1.2.0 |
-| Kitchen version applied (tiers, gates and roles) | Slow AI Kitchen v2.9.1 |
+| Instrument version | Definition of Done template v1.2.2 |
+| Kitchen version applied (tiers, gates and roles) | Slow AI Kitchen v2.11.0 |
 
 **Roles** (one person may hold several roles in small settings, per the Kitchen; Builder and Reviewer are different people wherever the team allows; Reviewer, Approver and Owner are distinct at Tier 3; review is always a distinct act against the definition, never a re-reading of one's own draft)
 

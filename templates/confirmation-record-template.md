@@ -1,6 +1,6 @@
 # Confirmation Record (Instrument)
 
-Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.2 | CC BY-NC-SA 4.0
 
 **Complete before reliance or release.** One Human, one artifact, one standard, one signature, one scope. The completed record joins the evidence pack. Tier 1 work completes Sections 0, 1, 5 and 6; Tier 2 and Tier 3 complete every section, as the README's [tier table](../README.md#proportionate-use-the-tier-table) states. If the Definition of Done shows unrecorded changes, stop: reconstruct and record before confirming anything.
 
@@ -17,8 +17,8 @@ Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0
 | Date, time and timezone | |
 | Material available to confirmer since (date and time) | |
 | Method version: the release of this repository this record is made under (the README's version table; see Governing methods and versions) | definition-of-done v |
-| Instrument version | Confirmation Record template v1.2.0 |
-| Kitchen version applied (tiers, gates and roles) | Slow AI Kitchen v2.9.1 |
+| Instrument version | Confirmation Record template v1.2.2 |
+| Kitchen version applied (tiers, gates and roles) | Slow AI Kitchen v2.11.0 |
 
 ## Section 1. Test Results
 

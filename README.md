@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea | former General Counsel, BABL AI
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.2.1 | 2026-09-22 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.2.2 | 2026-10-11 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
@@ -108,7 +108,7 @@ The rule that the Kitchen controls is a rule about a specific text, so the text 
 
 | Governing document | Version this release was written against | What it governs here |
 |---|---|---|
-| [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | v2.9.1 (2026-09-08, KST) | Gates 1, 6 and 7, the three risk tiers, the Tier Application Map and the task roles |
+| [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | v2.11.0 (2026-10-11, KST) | Gates 1, 6 and 7, the three risk tiers, the Tier Application Map and the task roles |
 | [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) | v1.1.1 (2026-09-06, KST) | The three doctrines as stated, including the two limbs of Informed Intent |
 | [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) | v1.7.18 (2026-09-07, KST) | This repository's classification (Layer 1) and the maintenance protocol |
 | [GRC Workbook](https://github.com/rolldabones/grc-workbook) | v4.3.1 (2026-09-08, KST) | Module 10, the five conditions of a valid authorization; Module 11, the evidence pack |
@@ -120,7 +120,7 @@ The relationship to the Academy is instructional. The material here is designed 
 
 ## Proportionate Use: The Tier Table
 
-The Kitchen's three risk tiers govern this repository without modification, and this table is the single authoritative statement of what each tier requires here. Every other file that states a tier requirement defers to it. The tier definitions and the number of tests at Gate 1 are the Kitchen's (v2.9.1, Tier Application Map); the remaining rows are this repository's instruments applied at each tier. Tiering adjusts depth. It never deletes a gate, and a function may set stricter requirements through its tool registry under Kitchen Step 10, never looser ones for Tier 3 work.
+The Kitchen's three risk tiers govern this repository without modification, and this table is the single authoritative statement of what each tier requires here. Every other file that states a tier requirement defers to it. The tier definitions and the number of tests at Gate 1 are the Kitchen's (v2.11.0, Tier Application Map); the remaining rows are this repository's instruments applied at each tier. Tiering adjusts depth. It never deletes a gate, and a function may set stricter requirements through its tool registry under Kitchen Step 10, never looser ones for Tier 3 work.
 
 | Requirement | Tier 1 (low stakes) | Tier 2 (moderate stakes) | Tier 3 (high stakes) |
 |---|---|---|---|
@@ -216,7 +216,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.2.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.2.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
