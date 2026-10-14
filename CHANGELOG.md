@@ -11,6 +11,13 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.2.3 (2026-10-15)
+
+Byline correction, on the author's instruction of 15 October 2026 (KST). Patch: no requirement changes, no instrument field changes, no prompt changes.
+
+- **README credit line:** "CEO, GRC Solutions Korea | former General Counsel, BABL AI" now reads "CEO, GRC Solutions Korea". About the Author, which names the former role in prose, is unchanged.
+- Version table, How to Cite and `CITATION.cff` move to v1.2.3 in lockstep. No companion file is touched, so no companion masthead moves under the versioning rule above, and both templates stay at Instrument version v1.2.2.
+
 ## v1.2.2 (2026-10-11)
 
 The Slow AI Kitchen pin moves from v2.9.1 to v2.11.0 after re-verification. Patch: no requirement changes, no instrument field changes, no prompt changes.
