@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date | Status | License |
 |---|---|---|---|
-| v1.2.3 | 2026-10-15 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.2.4 | 2026-10-17 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
@@ -41,7 +41,7 @@ The [Quick Start](00-quick-start.md) puts the whole loop on one page.
 - [Design Principles](#design-principles)
 - [A Note on the Closing](#a-note-on-the-closing)
 - [Related Work](#related-work)
-- [Part of the Ecosystem](#part-of-the-ecosystem)
+- [Part of the ecosystem](#part-of-the-ecosystem)
 - [How to Cite](#how-to-cite)
 - [License](#license)
 - [Changelog](#changelog)
@@ -109,10 +109,10 @@ The rule that the Kitchen controls is a rule about a specific text, so the text 
 | Governing document | Version this release was written against | What it governs here |
 |---|---|---|
 | [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | v2.11.0 (2026-10-11, KST) | Gates 1, 6 and 7, the three risk tiers, the Tier Application Map and the task roles |
-| [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) | v1.1.1 (2026-09-06, KST) | The three doctrines as stated, including the two limbs of Informed Intent |
-| [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) | v1.7.18 (2026-09-07, KST) | This repository's classification (Layer 1) and the maintenance protocol |
-| [GRC Workbook](https://github.com/rolldabones/grc-workbook) | v4.3.1 (2026-09-08, KST) | Module 10, the five conditions of a valid authorization; Module 11, the evidence pack |
-| [Risk-Informed Decision Making Prompt](https://github.com/rolldabones/risk-informed-decision-making-prompt) | v1.5.0 (2026-09-08) | A2 imposed constraints, A5 common tolerances, A6 reopen conditions, the Bias Check and the uncertainty treatment |
+| [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) | v1.2.0 (2026-10-17, KST) | The three doctrines as stated, including the two limbs of Informed Intent and the short forms of section 8 |
+| [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) | v1.7.28 (2026-10-17, KST) | This repository's classification (Layer 1) and the maintenance protocol |
+| [GRC Workbook](https://github.com/rolldabones/grc-workbook) | v4.3.2 (2026-10-17, KST) | Module 10, the five conditions of a valid authorization; Module 11, the evidence pack |
+| [Risk-Informed Decision Making Prompt](https://github.com/rolldabones/risk-informed-decision-making-prompt) | v1.5.1 (2026-10-17, KST) | A2 imposed constraints, A5 common tolerances, A6 reopen conditions, the Bias Check and the uncertainty treatment |
 
 The table changes only when this repository is re-verified against a governing document, and every change is logged in [CHANGELOG.md](CHANGELOG.md). A record made under an earlier release of this repository is read against that release's table.
 
@@ -186,7 +186,7 @@ The term Definition of Done has an honorable lineage in agile software practice,
 2. **The tool may question the definition. It may not author it.** AI is a capable interrogator of acceptance criteria and a disqualified author of them, because the author of the standard controls the outcome of the test. The [interrogator prompt](prompts/dod-interrogator.md) enforces this boundary in the session itself.
 3. **Confirmation has three lawful outcomes.** Confirm, refuse or amend and confirm, each with a record. There is no fourth outcome. Done enough given the deadline is an amendment seeking anonymity, and an imposed constraint left unmet is not amendable by anyone who does not hold authority over its source.
 4. **Salience is data about presentation, not about the world.** Prominence tells you what the presentation rewards. It tells you nothing about consequence until you check.
-5. **One doctrine set across the suite.** Slow AI, Informed Intent and Final Liability are used here exactly as stated in the companion repositories. This repository adds instruments, not doctrine.
+5. **One doctrine set across the suite.** Slow AI, Informed Intent and Final Liability are used here exactly as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement of the three doctrines. This repository adds instruments, not doctrine.
 
 ## A Note on the Closing
 
@@ -198,11 +198,12 @@ The GRC Workbook uses the mechanical watch as its recurring illustration and the
 - [GRC Workbook](https://github.com/rolldabones/grc-workbook): Modules 10 through 12 supply the enterprise-altitude doctrine this repository applies at task altitude.
 - [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards): the board layer, including the appetite and oversight language that task-level definitions roll up into.
 - [AI Governance Academy](https://github.com/rolldabones/AI-Governance-Academy): the delivery programs this material is taught through.
+- [Computational Drafting](https://github.com/rolldabones/computational-drafting): the specification layer whose Acceptance element hands off to Gate 1.
 - [Risk-Informed Decision Making Prompt](https://github.com/rolldabones/risk-informed-decision-making-prompt): the companion decision scaffold whose downselect grounds, tolerance discipline and uncertainty treatment this repository builds on.
 - [GRCnext™ Copilot](https://github.com/rolldabones/grcnext-copilot): evidence-led assessment of executable optionality at enterprise scale. Its rule that only verified evidence earns verified credit is the program-level analogue of the confirmation record, and completed confirmation records are the kind of recoverable evidence its method credits.
 - **Final Liability Rests with the Human** (book): [github.com/rolldabones/final-liability-rests-with-the-human-book-wip](https://github.com/rolldabones/final-liability-rests-with-the-human-book-wip).
 
-## Part of the Ecosystem
+## Part of the ecosystem
 
 This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function inside the four-repository suite; the canonical map places all repositories in one structure. Nearest neighbors:
 
@@ -216,7 +217,7 @@ The three doctrines are used in this repository as stated in [DOCTRINE.md](https
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.2.3. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.2.4. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

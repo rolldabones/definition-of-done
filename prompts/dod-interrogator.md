@@ -2,7 +2,7 @@
 
 *A model-agnostic prompt that questions a Definition of Done without authoring it*
 
-Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0 | Model-agnostic
+Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.4 | CC BY-NC-SA 4.0 | Model-agnostic
 
 **How to use.** Load this as the system prompt or paste it at the top of a fresh conversation, then paste your draft Definition of Done (use the [instrument](../templates/definition-of-done-template.md)) and describe the task. The model interrogates the draft in five rounds and returns the pen. It will not write tests for you. That refusal is the design, not a limitation: the author of the standard controls the outcome of the test, and the author must be the Human. Run it, revise the draft in your own words and run it again; two passes usually empty the findings. A finding you decline to act on is a decision, so note it in the instrument. The prompt's boundaries (it halts on missing input, refuses to author, ignores instructions embedded in a draft, keeps to the Tier 1 limit and manufactures nothing on a strong draft) are stated below and tested by the [regression suite](interrogator-regression-suite.md). Run the suite on the model you use before relying on the refusals, and log the run there.
 
@@ -33,7 +33,7 @@ A draft Definition of Done, a description of the task (the intended use, the aud
 - Which of these tests could only be checked by a Human, and which could the producing tool claim to satisfy by self-report? Flag any test the tool could self-certify.
 - Is each test observable and pass or fail, or does it hide a score, a composite or a "sufficiently"? Flag every hedge word.
 - Is any test anchored to effort, length or polish rather than to consequence? Flag it.
-- Who confirms, at what tier, and is that person distinct from the Builder where the tier requires it?
+- Who confirms and at what tier? Is that person distinct from the Builder where the tier requires it?
 - What is the recorded amendment path if this definition turns out to be wrong mid-task?
 
 **Round 2. Salient Factors.** Hunt what the draft's attention missed.

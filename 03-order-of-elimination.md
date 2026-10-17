@@ -2,7 +2,7 @@
 
 *Path dependence, the four mechanisms and the discard register*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.4 | CC BY-NC-SA 4.0
 
 > **The closing.** *A document pulled from the data room in week one never reaches the closing set, and by closing nobody remembers it existed. Diligence teams therefore index what was removed as carefully as what remains. The index of removals is the only defense against a record that curates itself.*
 
@@ -53,7 +53,7 @@ The lesson for the definition of done is not that relative cuts are wrong. It is
 
 ## The hook into the Definition of Done
 
-For selection tasks, the definition of done carries two additional tests:
+For selection tasks, the definition of done carries three additional tests:
 
 - The elimination record exists and was kept as the work proceeded: the candidate list before any cut, then the order, grounds and information state for every cut, with infeasibility and dominance cuts distinguished from preference cuts and relative cuts recorded as preference cuts.
 - The strongest discard is named, and the confirmation includes the resurrection paragraph.

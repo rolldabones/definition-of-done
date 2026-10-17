@@ -2,7 +2,7 @@
 
 *The flaw of averages, tail tests, the single-run illusion and uncertainty routing*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.4 | CC BY-NC-SA 4.0
 
 > **The closing.** *Parties refuse to close on averages. Purchase price adjustments, escrows, earn-outs and holdbacks exist because a number that is right on average and wrong in this deal is wrong. The closing mechanics of every substantial transaction are variance instruments, negotiated by people who understood that the mean is not the outcome.*
 
@@ -39,7 +39,7 @@ Classify what remains uncertain at confirmation and route it by type, because th
 - **Epistemic** (reducible by knowledge): either close it before confirming or place it under Watch with named parameters, a named schedule and named triggers. All three are required, or it is not a Watch, it is a hope.
 - **Endpoint** (the target itself is ill-defined): the definition of done is the defect. Amend it by the recorded protocol before confirming anything against it.
 
-The confirmation record then states the residual: what remains unknown, of what type, and why release is defensible anyway. Unknown is an admissible entry in an honest record. False precision is not. A confirmation that admits its residual uncertainty in writing is stronger evidence of Informed Intent than one that claims none, because the reviewer who was not present can see that the Human saw the edge.
+The confirmation record then states the residual: what remains unknown, of what type and why release is defensible anyway. Unknown is an admissible entry in an honest record. False precision is not. A confirmation that admits its residual uncertainty in writing is stronger evidence of Informed Intent than one that claims none, because the reviewer who was not present can see that the Human saw the edge.
 
 ---
 

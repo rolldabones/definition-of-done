@@ -2,7 +2,7 @@
 
 *Defaults, anchors, framing and the asymmetry of accepting against rejecting*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.4 | CC BY-NC-SA 4.0
 
 > **The closing.** *Deal lawyers fight over who holds the pen because the drafter's form is the default, and defaults survive. Every departure from the form must be argued for, one comment at a time, by the party who did not write it. Holding the pen is power without a signature on it.*
 
@@ -37,7 +37,7 @@ The countermeasures are structural, matching the threat. None of them requires t
 
 ## The tie to Informed Intent
 
-The five conditions of a valid authorization (knowledge, evidence, authority, time and permission) are conditions on the decider. Choice architecture is the condition of the decision environment. The two are complements, and both are necessary: a fully qualified Human deciding inside a rigged environment produces decisions that inherit the rig. An organization serious about Informed Intent audits both the signer and the room the signature happens in.
+The five conditions of a valid authorization (knowledge, evidence, authority, time and permission) are conditions on the decider. Choice architecture is the condition of the decision environment. The two are complements, and both are necessary: a fully qualified human deciding inside a rigged environment produces decisions that inherit the rig. An organization serious about Informed Intent audits both the signer and the room the signature happens in.
 
 ## The hook into the Definition of Done
 

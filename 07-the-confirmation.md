@@ -2,7 +2,7 @@
 
 *The protocol, the three lawful outcomes and confirming under pressure*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.4 | CC BY-NC-SA 4.0
 
 > **The closing.** *At closing, someone signs a bring-down certificate: the representations made at signing remain true today. The certificate exists because time passed between the definition and the confirmation, and the signature exists because a certificate nobody signs is a memo. The signature is the point.*
 
@@ -40,7 +40,7 @@ Run in order. Depth scales with tier. The [Confirmation Record template](templat
 
 **Confirm.** The definition is met. The named Human signs, the scope is stated and the work is released within it.
 
-**Refuse.** The definition is not met. The refusal names the failed tests and returns the work. A refusal is a successful operation of the method, not a failure of it: the gate did what gates are for. Organizations that treat refusals as delivery failures are training their Humans to stop finding them.
+**Refuse.** The definition is not met. The refusal names the failed tests and returns the work. A refusal is a successful operation of the method, not a failure of it: the gate did what gates are for. Organizations that treat refusals as delivery failures are training their humans to stop finding them.
 
 **Amend and confirm.** The work does not meet the definition as written, and the definition, on what is now known, was wrong or is being knowingly relaxed. The amendment is recorded with the original criterion, the amended criterion, the source of the requirement, the reason, the authority and the date; the residual risk of the relaxation is stated; and the confirmation proceeds against the amended standard under the amender's name. Amendment authority follows ownership: the Owner at Tiers 1 and 2, the Owner with the Approver's sign-off at Tier 3. It stops at imposed constraints. A test that restates a legal, contractual, policy or instructed floor is not the Owner's to relax and not the Approver's either; only the party with authority over the source can waive it, and until that waiver is recorded the outcome for an unmet constraint is refuse. Amend and confirm exists to relax preferences honestly. It does not exist to relax floors quietly.
 

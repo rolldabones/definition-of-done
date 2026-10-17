@@ -11,6 +11,20 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.2.4 (2026-10-17)
+
+Doctrine pointer, pin re-verification and mechanical corrections, from the whole-account review of 15 October 2026 (doc sections 1 and 8; reviewer report 13, items A6, A11, C1, C4 and C5), session T3. Patch: no requirement changes, no instrument field changes, no change to what the Interrogator does.
+
+- **Governing versions re-verified.** DOCTRINE.md re-pinned from v1.1.1 to v1.2.0 and ECOSYSTEM.md from v1.7.18 to v1.7.28, each read from the profile repository on 17 October 2026: DOCTRINE.md v1.1.2 and v1.2.0 correct two statutory status tags and add the sanctioned short forms, and no rule this repository applies moved; ECOSYSTEM.md still classifies this repository in Layer 1 and its protocol gains lockstep (item 5) and reciprocity (item 9). The Slow AI Kitchen pin stays at v2.11.0 and lags by design: the Kitchen re-versions in the same review session, and the pin is re-verified against that release, not against one already superseded.
+- **GRC Workbook and Risk-Informed Decision Making Prompt re-pinned** to v4.3.2 and v1.5.1, shipped in the same session: their T3 changes are doctrine wording and punctuation and touch none of the parts the pins name (Modules 10 and 11; A2, A5, A6, the Bias Check and the uncertainty treatment). The Slow AI Kitchen pin stays at v2.11.0 until it is re-verified against v2.12.0, which moves the Owner sequence and so touches the task roles the pin names.
+- **Design principle 5** points to DOCTRINE.md, the normative text, instead of "the companion repositories".
+- **03-order-of-elimination:** "two additional tests" before three bullets now reads "three".
+- ***Human* as a common noun** lowercased at three places the review named (00 "a human who has not worked the task", 04 "a fully qualified human", 07 "their humans"). The README's local convention, capitalizing *Human* for the person who holds the bracket, is unchanged and awaits the author's ruling against DOCTRINE.md section 6.
+- **Serial commas** removed in 06 (the residual sentence) and in the Interrogator's Round 2 question, which is split into two questions with the same content.
+- **Part of the ecosystem** heading in the protocol's form; Related Work names computational-drafting, which names this repository as a neighbor.
+- The v1.2.0 entry below says the regression suite carries "four fixtures"; the suite has five, one by reference. The entry is shipped history and stays as written.
+- Companion mastheads moved to v1.2.4 on 00, 03, 04, 06, 07 and the Interrogator. Both templates, `SOURCES.md`, `LICENSE.md` and `tools/check_release.py` unchanged byte for byte. Version table, How to Cite and `CITATION.cff` move to v1.2.4 in lockstep.
+
 ## v1.2.3 (2026-10-15)
 
 Byline correction, on the author's instruction of 15 October 2026 (KST). Patch: no requirement changes, no instrument field changes, no prompt changes.
