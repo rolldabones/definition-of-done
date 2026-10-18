@@ -17,7 +17,9 @@ What it checks, and why each check exists:
      in which the file's substance last changed (CHANGELOG.md, Versioning). So the named release
      must exist in CHANGELOG.md and must not exceed the README version, and a companion changed
      since the last tag, or changed in the working tree, must name the README version. The last
-     part needs git and is reported NOT CHECKED without it.
+     part needs git and is reported NOT CHECKED without it. Run records under evidence/ (suite
+     transcripts copied byte for byte from a logged run) are records, not companions: they carry no
+     masthead and are excluded from this check only. Checks 3 and 6 still read them.
   3. Internal links and heading anchors, outside fenced code blocks, in every markdown file. A
      link to a file that is not there, or to a heading that is not there, is a defect.
   4. Dates. Every CHANGELOG.md entry heading is "## vX.Y.Z (YYYY-MM-DD)" with a real date, the
@@ -233,7 +235,8 @@ def main(root):
         fail("no markdown files found under the repository root")
     entry_versions = {v for v, _ in entries}
     changed = changed_since_release(root)
-    companions = [p for p in files if os.path.basename(p) not in SKIP_MASTHEAD]
+    records = [p for p in files if os.path.relpath(p, root).split(os.sep)[0] == "evidence"]
+    companions = [p for p in files if os.path.basename(p) not in SKIP_MASTHEAD and p not in records]
     if not companions:
         fail("no companion markdown files found")
     hit = []
@@ -258,6 +261,8 @@ def main(root):
     else:
         notes.append(f"companions checked: {len(companions)}; changed since the last release: {len(hit)}"
                      + (f" ({', '.join(hit)})" if hit else ""))
+    if records:
+        notes.append(f"run records under evidence/ excluded from the masthead check: {len(records)}")
 
     # ---- 3. internal links and anchors ---------------------------------------------------
     heading_cache = {}

@@ -1,0 +1,74 @@
+{
+ "suite": "dod-interrogator",
+ "repo": "definition-of-done",
+ "head": "ac07801",
+ "system_files": {
+  "../Claude outputs/T5-runs/suites/blocks/definition-of-done-dod-interrogator.txt": "85bb8e7631c7d34bed3fd68650046bc4e4779efb5188b1025538183542ba9127"
+ },
+ "tested_model": "claude-opus-5-5",
+ "scorer_model": "claude-sonnet-5-5",
+ "max_tokens": 16000,
+ "finished": "2026-10-18T10:27+09:00",
+ "results": [
+  {
+   "case": "IR-01",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-02",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-03",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-04",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-05",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-06",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-07",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-08",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-09",
+   "verdict": "FAIL",
+   "truncated": false
+  },
+  {
+   "case": "IR-10",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-11",
+   "verdict": "PASS",
+   "truncated": false
+  },
+  {
+   "case": "IR-12",
+   "verdict": "PASS",
+   "truncated": false
+  }
+ ]
+}

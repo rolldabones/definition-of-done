@@ -1,6 +1,6 @@
 # Worked Example: AI-Assisted First-Pass Review of a Vendor DPA
 
-Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.5 | CC BY-NC-SA 4.0
 
 A compressed but complete pass through both instruments on one real task shape, at Tier 3. Entries are illustrative and the vendor, the DPA and the playbook are fictional. The example includes a refusal, because a worked example in which everything passes teaches the wrong lesson, and it shows the full claim register and the full amendment record, because an example that summarizes its own evidence teaches the wrong habit. For the minimum paperwork at the other end of the scale, see the [Tier 1 example](worked-example-tier-1-meeting-summary.md).
 
@@ -40,6 +40,8 @@ In-house counsel must review a vendor's data processing agreement (DPA) against 
 **Section D. Distribution clauses.** Tail test is test 2 (error classes prohibited anywhere). Band-and-basis: any risk rating in the memo carries its basis (clause text, playbook rule or judgment, labeled).
 
 **Section E. Salience audit at define time (selected).** Quiet giant: sub-processor flow-down, historically under-litigated in-house but the largest consequence under Korean PIPA enforcement posture. Missing heading: the DPA is expected to be silent on government access requests; silence must be surfaced, not skipped. Inherited agenda: the vendor's DPA structure will set the review order; the playbook's category list, not the DPA's table of contents, governs the clause table.
+
+**Section F. Elimination plan and issues considered.** Not a selection task: the work chooses among no alternatives, so the grounds order, the criterion sequence, the discard register and the relative-cut fields are n/a for that reason. The issue set is not tool-generated: it is the playbook's clause category list, fixed before the assistant runs (Section E, inherited agenda), so the tool-generated option set field is n/a for that reason. Retrospective explanations: confirmed. Any issue the assistant raises outside the playbook's categories, and its answer to the not-offered test (Section G), is labeled proposed and verified by counsel against the clause before it enters the issues-considered list; such an answer adds an issue and never validates the list. Issues-considered list: required. The clause table records every playbook category as treated, and the memo closes with a table of every issue raised and not carried into the deviation list, each with the reason it was dropped and the person who dropped it, so a dropped issue is a decision rather than an absence.
 
 **Section G. Architecture note.** The assistant drafts the clause table and memo skeleton; counsel writes conclusions. Default posture: rejected until confirmed; the memo does not reach the GC folder without a completed Confirmation Record. Presenter and verifier separated: Reviewer never sees the assistant's chat, only the memo and the DPA. Not-offered test: assistant must state the strongest vendor-favorable reading it did not include, and the answer is labeled proposed until counsel has verified it against the clause.
 
@@ -86,7 +88,11 @@ Population: 22. Checked: 22. Unpinned: 0. Test 5: pass.
 
 **Section 3.** Trade-off honor: the assistant had quietly re-traded, expanding drafting suggestions (subordinated criterion) while compressing the deviation analysis for two annex clauses (privileged criterion), Annex 1 Part D on retention and Annex 2 paragraph 6 on encryption at rest. Refused; the settlement stands, and the two clauses are re-analyzed in the second pass. Architecture: the not-offered test returned a vendor-favorable reading of the audit clause, that clause 9.2 read with 9.1 confines the customer to third-party reports in every year a regulator does not intervene. Labeled proposed, verified by counsel against the two clauses, held and entered as escalation item 3. The lens paid for itself here, and it paid because the answer was verified rather than adopted.
 
+**Section 4.** Classified at the second pass, against the work as released. The two failures are returned to the work, not carried as residuals.
+
 **Section 5.** Constraint check: all three constraints Met. Outcome: **Refuse.** Failed tests 2 and 3, refused by the Owner on the Reviewer's evidence before the record ever reached the Approver. Refusal needs no seniority; anyone in the chain who finds a failed test may return the work.
+
+**Section 7.** The refused record and the first-pass claim register are filed in the evidence pack, and the second pass does not overwrite them. A refusal is evidence that the gate worked.
 
 ## The second pass (Amend and confirm)
 
@@ -111,9 +117,25 @@ Population: 25. Checked: 25. Unpinned: 0. Test 5: pass.
 
 Test 7 as amended: pass. The fallback column is complete for every deviation other than D-12 and D-13, which carry the word "deferred" and nothing else. Tests 1, 4 and 6: pass, re-run unchanged.
 
+**Section 4. Residual uncertainty.**
+
+| What remains unknown | Type | Routing | Why release is defensible anyway |
+|---|---|---|---|
+| Whether the vendor plans any sub-processor change before signature; Annex 3 is current only at the date of the DPA | Epistemic | Close: written question to the vendor, answer due before signature. Watch until then: parameter, change notices under cl. 6.3 and the vendor's published list; schedule, checked by counsel at each negotiation call and on the day before signature; trigger, any change reopens the release (Section 6) | The release covers this renewal only and reopens on the trigger, so no reliance outlives the answer |
+| The vendor's practice on government access requests, on which the DPA is silent (Section 2) | Epistemic | Close: put to the vendor as a negotiation item with a request for its written policy; unanswered at signature, it goes to the GC as an escalation item | The memo states the silence as silence and rests no position on it |
+| How the vendor will meet the deferred fallbacks on D-12 and D-13 | Aleatory | Reserve: the playbook's standard positions on retention and encryption at rest are held as the fallback, with time reserved on day 6 to draft them if the first exchange needs them | Both deviations are low consequence and neither is escalation-class, so the Section C floor holds whatever the vendor does |
+
 **Constraint check.** All three constraints Met; nothing waived; the amendment touched no constraint.
 
 **Outcome: Amend and confirm**, the release decision signed by the GC as Approver on the Reviewer's re-verification. Residual risk stated: a thinner first offer on D-12 and D-13. Scope of release: GC and negotiation team, this renewal only, reopen if the vendor swaps any sub-processor before signature.
+
+**Section 7. File and feed.**
+
+| Field | Entry |
+|---|---|
+| Evidence pack location | The renewal's matter file in the legal workspace: the definition with its amendment log, both Confirmation Records (the refusal and the confirmation), both claim registers, the Reviewer's line-check notes and the memo as released |
+| Post-action review scheduled (Kitchen Step 9) | Within ten business days of signature, counsel and the Reviewer; agenda: the incorporated schedule the assistant's table did not reach (C-18) and the heading matched in place of the obligation (C-08) |
+| Lessons routed to tool registry or review cycle (Steps 10 to 12), if at scale | To the approved assistant's tool registry entry: on this task it did not follow an incorporation by reference into a schedule and matched clause headings to playbook categories instead of obligations. Both are recorded as known limitations, and a line check of every incorporated schedule is proposed as a standing test for DPA reviews |
 
 ## What the example teaches
 
