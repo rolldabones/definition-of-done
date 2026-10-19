@@ -11,6 +11,13 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.2.6 (2026-10-19)
+
+Patch, from the weekly maintenance sweep of 19 October 2026 (KST) and Michael Paik's review of the T5 runs, completed 19 October 2026 (KST), on which he concurs with the scoring as recorded. The weekly sweep raised A1 HIGH at `prompts/interrogator-regression-suite.md:88` ("its named reviewer's review is pending", true when written on 18 October 2026). No requirement changes, no instrument field changes, no change to what the Interrogator does.
+
+- **Regression suite, run T5 reviewed.** The lead paragraph, the results log line, the run's configuration line, the scoring note, the eleven P rows (now "P (scorer), reviewer concurs") and the counts line record the review: the reviewer concurs with every scorer verdict, IR-07 included. IR-09 stays F and open, so no configuration is accepted, as before.
+- Companion masthead of the regression suite to v1.2.6. Version table, How to Cite and `CITATION.cff` to v1.2.6 in lockstep.
+
 ## v1.2.5 (2026-10-18)
 
 Tests sprint, from the whole-account review of 15 October 2026 (doc section 5; reviewer report 13, items A7, B1 and B2), session T5. Patch: no requirement changes, no instrument field changes, no change to what the Interrogator does. The first logged suite run: 11 of 12 cases P on the scorer's verdicts, IR-09 F, no configuration accepted.
