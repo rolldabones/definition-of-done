@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date (KST: Korea Standard Time) | Status | License |
 |---|---|---|---|
-| v1.2.7 | 2026-10-20 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.3.0 | 2026-10-20 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
@@ -69,7 +69,7 @@ The three doctrines of this body of work are Slow AI, Informed Intent and Final 
 
 **Slow AI.** Slow AI places inspection at the points where work crosses a governance boundary. A gate is only as good as the standard it inspects against. The Definition of Done is that standard. A gate without a definition is a pause, not a control. The discipline of running at the speed of human verification presupposes that someone has defined what verification must establish.
 
-**Final Liability.** Liability attaches at confirmation. The confirmation is the moment a named Human takes the outcome, and the confirmation record is the evidence that the taking was knowing. Work that is relied on without a confirmed Definition of Done is an orphaned outcome waiting for a name to be assigned after the fact, which is the standard institutional dodge the doctrine exists to prevent.
+**Final Liability.** Liability attaches at confirmation. The Kitchen's Gate 5 (Step 6, Final Liability) comes earlier and is a different act: before the work is built, it confirms the Owner named in the task brief at Step 1 and names the reviewer, approver and escalation path. Liability attaches when that Owner confirms the work at Gates 6 and 7. The confirmation is the moment a named Human takes the outcome, and the confirmation record is the evidence that the taking was knowing. Work that is relied on without a confirmed Definition of Done is an orphaned outcome waiting for a name to be assigned after the fact, which is the standard institutional dodge the doctrine exists to prevent.
 
 One artifact carries all three doctrines. That makes the Definition of Done the smallest unit of governance: the board directs, the enterprise builds, the professional practices, the programs deliver and at the center of all four a Human decides that work is done.
 
@@ -97,7 +97,7 @@ This repository is a companion to a four-repository suite. The board directs, th
 | [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards) | Directors, officers, general counsel | Direct. What the board must own, ask and refuse | CC BY-NC-SA 4.0 |
 | [GRC Workbook](https://github.com/rolldabones/grc-workbook) | General counsel (GC), compliance officers, risk leaders, auditors | Build. The eighteen-module instrument on the OCEG (Open Compliance and Ethics Group) GRC Capability Model 3.5 | CC BY-SA 4.0 |
 | [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | Individual professionals, team leads, program owners | Practice. The twelve-step, ten-gate method for governed AI use | CC BY-NC-SA 4.0 |
-| [AI Governance Academy](https://github.com/rolldabones/AI-Governance-Academy) | Advisors and organizations engaging structured delivery | Deliver. Engagement templates for six structured programs | CC BY-NC-SA 4.0 |
+| [AI Governance Academy](https://github.com/rolldabones/AI-Governance-Academy) | Advisors and organizations engaging structured delivery | Deliver. Engagement templates for seven structured programs | CC BY-NC-SA 4.0 |
 | **The Definition of Done** (this repository) | The Human at the moment of acceptance | Decide. How done is defined and confirmed under the three doctrines | CC BY-NC-SA 4.0 |
 
 The relationship to the Kitchen is deliberate and narrow. The Kitchen establishes Gate 1 (Definition of Done) and confirms against it at Gate 6 (Verification and Validation) and Gate 7 (Human Release Decision). The Kitchen tells you where the gates are. This repository is the depth work inside those gates: what a Human must actually think about to define and confirm done on a real task with real stakes. Nothing here modifies the method. Where this repository and the Kitchen conflict, the Kitchen controls, at the version pinned below.
@@ -108,7 +108,7 @@ The rule that the Kitchen controls is a rule about a specific text, so the text 
 
 | Governing document | Version this release was written against | What it governs here |
 |---|---|---|
-| [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | v2.11.0 (2026-10-11, KST) | Gates 1, 6 and 7, the three risk tiers, the Tier Application Map and the task roles |
+| [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | v3.0.1 (2026-10-20, KST) | Gates 1, 6 and 7, the three risk tiers, the Tier Application Map and the task roles |
 | [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md) | v1.2.0 (2026-10-17, KST) | The three doctrines as stated, including the two limbs of Informed Intent and the short forms of section 8 |
 | [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md) | v1.7.28 (2026-10-17, KST) | This repository's classification (Layer 1) and the maintenance protocol |
 | [GRC Workbook](https://github.com/rolldabones/grc-workbook) | v4.3.2 (2026-10-17, KST) | Module 10, the five conditions of a valid authorization; Module 11, the evidence pack |
@@ -120,13 +120,13 @@ The relationship to the Academy is instructional. The material here is designed 
 
 ## Proportionate Use: The Tier Table
 
-The Kitchen's three risk tiers govern this repository without modification, and this table is the single authoritative statement of what each tier requires here. Every other file that states a tier requirement defers to it. The tier definitions and the number of tests at Gate 1 are the Kitchen's (v2.11.0, Tier Application Map); the remaining rows are this repository's instruments applied at each tier. Tiering adjusts depth. It never deletes a gate, and a function may set stricter requirements through its tool registry under Kitchen Step 10, never looser ones for Tier 3 work.
+The Kitchen's three risk tiers govern this repository without modification, and this table is the single authoritative statement of what each tier requires here. Every other file that states a tier requirement defers to it. The tier definitions and the number of tests at Gate 1 are the Kitchen's (v3.0.1, Tier Application Map); the remaining rows are this repository's instruments applied at each tier. Tiering adjusts depth. It never deletes a gate, and a function may set stricter requirements through its tool registry under Kitchen Step 10, never looser ones for Tier 3 work.
 
 | Requirement | Tier 1 (low stakes) | Tier 2 (moderate stakes) | Tier 3 (high stakes) |
 |---|---|---|---|
 | Kitchen examples | Rough brainstorming, non-public internal drafts, formatting, idea generation | Internal analyses, training materials, client-facing drafts under review, process documentation | Decisions affecting customers, employees or regulated operations; legal, compliance or risk determinations; external representations; automation tied to action |
 | Pass or fail tests (Section A) | 1 to 3 | 3 to 7 | 3 to 7 |
-| Definition of Done sections completed | 0, A and H. An imposed constraint that applies is written as one of the tests and marked as a constraint | Every applicable section | Every applicable section; the completed instrument is retained as evidence |
+| Definition of Done sections completed | 0, A and H, plus Section F where the task selects among alternatives. An imposed constraint that applies is written as one of the tests and marked as a constraint | Every applicable section | Every applicable section; the completed instrument is retained as evidence |
 | A test from the Salience Audit (an absence, an assumption or a tail) | Recommended | Required, at least one | Required, at least one |
 | Salience Audit (Section E) | Not required; one line each where run | One line each | All seven, with evidence pointers |
 | Trade-off statement (Section C) | Not required | Required | Required |
@@ -224,7 +224,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.2.7. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.3.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

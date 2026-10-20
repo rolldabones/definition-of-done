@@ -2,7 +2,7 @@
 
 *What the chapters' empirical claims rest on*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.0 | CC BY-NC-SA 4.0
 
 This repository asks the Human to distinguish the confidence of the prose from the state of the record. This file applies that rule to the repository itself. Every claim in the chapters that asserts something about how people or systems behave is listed here with its source, where one exists, and with one of four labels. A claim with no entry here is doctrine, method or argument, which the reader accepts or rejects on its reasoning, not a claim about the world.
 

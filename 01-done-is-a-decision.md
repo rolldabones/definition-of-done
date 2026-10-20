@@ -2,7 +2,7 @@
 
 *The two moments, the bracket and the six false forms of done*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.0 | CC BY-NC-SA 4.0
 
 > **The closing.** *A transaction does not close because the documents are long or the parties are tired. It closes because conditions stated at signing are satisfied or expressly waived, and a named person signs a certificate saying so. The deal was done twice: once when the parties defined what closing required and once when they confirmed it. Everything in between was execution.*
 

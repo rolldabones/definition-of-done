@@ -2,7 +2,7 @@
 
 *The protocol, the three lawful outcomes and confirming under pressure*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.4 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.0 | CC BY-NC-SA 4.0
 
 > **The closing.** *At closing, someone signs a bring-down certificate: the representations made at signing remain true today. The certificate exists because time passed between the definition and the confirmation, and the signature exists because a certificate nobody signs is a memo. The signature is the point.*
 

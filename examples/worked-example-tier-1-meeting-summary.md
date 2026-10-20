@@ -1,6 +1,6 @@
 # Worked Example: A Tier 1 Meeting Summary
 
-Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.3.0 | CC BY-NC-SA 4.0
 
 The minimum paperwork. One professional, one low-stakes task, both instruments completed at the depth the README's [tier table](../README.md#proportionate-use-the-tier-table) requires for Tier 1: Sections 0, A and H of the definition, Sections 0, 1, 5 and 6 of the record, one to three tests. Everything below took about ten minutes around the assistant's work. Names are placeholders. The method, instrument and Kitchen versions the records name (definition-of-done v1.2.0, template v1.2.0, Slow AI Kitchen v2.9.1) are historical: they are the versions in force when the example was written, and a new record names the current release and the versions in the README's [governing versions](../README.md#governing-methods-and-versions) table. For the full apparatus at the other end of the scale, see the [DPA review example](worked-example-dpa-review.md).
 
@@ -51,13 +51,13 @@ The lead read the transcript once (Kitchen Gate 2, the light form: a skim and a 
 
 | # | Test | Pass / Fail | Evidence |
 |---|---|---|---|
-| 1 | Action items assigned in the meeting, with owner and date | Pass | Five items, five found in the transcript (00:12, 00:19, 00:27, 00:41, 00:52). The item at 00:41 was assigned to nobody in the meeting; the assistant had given it an owner. Owner removed and the item marked "unassigned, raise Thursday" rather than repaired |
+| 1 | Action items assigned in the meeting, with owner and date | Fail | Five items listed, four found as assigned in the transcript (00:12, 00:19, 00:27, 00:52). The item at 00:41 was discussed but assigned to nobody in the meeting; the assistant had given it an owner. The test says an unsupported item is deleted, not repaired |
 | 2 | Decisions were decided, not discussed | Fail | Three decisions listed. Two found as decided (00:33, 00:48). The third, "launch moved to October", was proposed at 00:44 and deferred at 00:46; the transcript has nobody deciding it |
 | 3 | (constraint) No client names or client personal data | Pass | Post searched against the client list, zero hits; redaction done before upload |
 
-**Section 5, first run.** Constraint check: the one constraint is Met. Outcome: **Refuse.** Failed test 2, returned to self. The fix took two minutes: the October item moved to "raised, not decided".
+**Section 5, first run.** Constraint check: the one constraint is Met. Outcome: **Refuse.** Failed tests 1 and 2, returned to self. The fix took two minutes: the 00:41 item deleted from the action list and the October item moved to "raised, not decided".
 
-**Section 1, second run, against draft 2.** Test 1 pass, unchanged. Test 2 pass: two decisions listed, both found as decided; one item under "raised, not decided". Test 3 pass, unchanged.
+**Section 1, second run, against draft 2.** Test 1 pass: four action items, each found as assigned in the transcript with its owner and date. Test 2 pass: two decisions listed, both found as decided; one item under "raised, not decided". Test 3 pass, unchanged.
 
 **Section 5, second run.** Constraint check: Met. Outcome: **Confirm.**
 
@@ -65,7 +65,7 @@ The lead read the transcript once (Kitchen Gate 2, the light form: a skim and a 
 
 ## What the example teaches
 
-Tier 1 does not mean no definition. It means three tests and four record sections, written in the time the assistant takes to draft. The refusal cost two minutes and prevented a decision that nobody took from becoming the team's record of a decision that was taken, which is the small, ordinary way that fluent drafts rewrite what happened. The test that caught it was written before the draft existed. That is the whole method, at its smallest.
+A failed test is not repaired inside the confirmation: the confirmer records the fail, refuses, fixes the work and confirms the fixed draft on a second run. Tier 1 does not mean no definition. It means three tests and four record sections, written in the time the assistant takes to draft. The refusal cost two minutes and prevented an action nobody was given and a decision nobody took from becoming the team's record of what was assigned and decided, which is the small, ordinary way that fluent drafts rewrite what happened. The test that caught it was written before the draft existed. That is the whole method, at its smallest.
 
 ---
 

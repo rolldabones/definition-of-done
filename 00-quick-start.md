@@ -2,7 +2,7 @@
 
 *The minimal loop, one page*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.4 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.0 | CC BY-NC-SA 4.0
 
 For any task whose output someone will rely on. Ten minutes of governance around any amount of AI. Nothing here requires reading the rest of the repository first.
 
@@ -10,7 +10,7 @@ For any task whose output someone will rely on. Ten minutes of governance around
 
 ## The loop
 
-1. **Define done before you prompt.** Write the pass or fail tests for the finished work: one to three for Tier 1 (low-stakes) work, three to seven for Tier 2 and Tier 3, as the [tier table](README.md#proportionate-use-the-tier-table) states. Each test is observable, is anchored to what the work must do in the world and names the evidence that will establish it. At Tier 2 and above at least one test must target something the finished document will not visibly contain: an absence, an assumption or a worst case; at Tier 1 that is recommended. Tier 1 work completes Sections 0, A and H of the [instrument](templates/definition-of-done-template.md) and nothing else; the tier table states what the other tiers complete.
+1. **Define done before you prompt.** Write the pass or fail tests for the finished work: one to three for Tier 1 (low-stakes) work, three to seven for Tier 2 and Tier 3, as the [tier table](README.md#proportionate-use-the-tier-table) states. Each test is observable, is anchored to what the work must do in the world and names the evidence that will establish it. At Tier 2 and above at least one test must target something the finished document will not visibly contain: an absence, an assumption or a worst case; at Tier 1 that is recommended. Tier 1 work completes Sections 0, A and H of the [instrument](templates/definition-of-done-template.md), plus Section F where the task selects among alternatives, and nothing else; the tier table states what the other tiers complete.
 2. **Do your first pass by hand.** Read the source, sketch the structure, form a view. This is the Slow AI Kitchen's Manual First Pass and it is not optional: a human who has not worked the task cannot evaluate a machine that has.
 3. **Use the AI inside the frame.** Draft, challenge, expand, summarize, against the definition, at the speed you can verify.
 4. **Verify test by test, with evidence.** Not "looks right". What was checked, against what, by whom.

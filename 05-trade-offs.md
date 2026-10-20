@@ -2,7 +2,7 @@
 
 *The settlement behind every definition, constraints against preferences and trade drift*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.2.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.0 | CC BY-NC-SA 4.0
 
 > **The closing.** *A signed agreement is a record of trades. The representations that survived, the ones that died in redline and the ones that came back qualified by knowledge and materiality tell the truth of the negotiation more plainly than the recitals do. Nobody reads a contract as a description of the world. It is read as a settlement between parties who wanted incompatible things.*
 
