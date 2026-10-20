@@ -96,6 +96,7 @@ Reason and residual risk (required for Amend and confirm):
 | Evidence pack location | |
 | Post-action review scheduled (Kitchen Step 9) | |
 | Lessons routed to tool registry or review cycle (Steps 10 to 12), if at scale | |
+| Service Record (Kitchen close-out after Gate 7: optional at Tier 1, recommended at Tier 2, required at Tier 3) | Filed / location: |
 
 ---
 

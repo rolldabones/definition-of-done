@@ -17,13 +17,21 @@ Comparatives that could not be supported ("more often than any other", "neutrali
 
 ---
 
+## 01-done-is-a-decision.md
+
+| Claim in the chapter | Source | Status |
+|---|---|---|
+| Fluency is the one property a language model guarantees, which makes it the least informative signal available | No study cited; an argument from what a text generator is trained to produce | Practitioner heuristic |
+
 ## 02-salient-factors.md
 
 | Claim in the chapter | Source | Status |
 |---|---|---|
-| What comes to mind easily is judged more frequent and more important | Tversky, A. and Kahneman, D. (1973). Availability: a heuristic for judging frequency and probability. *Cognitive Psychology*, 5(2), 207 to 232. | Established |
+| What comes to mind easily is judged more frequent | Tversky, A. and Kahneman, D. (1973). Availability: a heuristic for judging frequency and probability. *Cognitive Psychology*, 5(2), 207 to 232. | Established |
+| What comes to mind easily is judged more important | Extension of the availability finding, which concerns judgments of frequency and probability, to judgments of importance | Author's characterization |
 | What is out of sight is, in practice, priced at approximately zero | Extension of the availability finding to the acceptance decision | Author's characterization |
 | Generated output is optimized for the properties that capture attention (fluency, structure, coverage, confidence) and is indifferent to materiality | No study cited; an argument from what a text generator is trained to produce | Practitioner heuristic |
+| Polish is the cheapest property a language model produces and the strongest cue a reader receives | No study cited, and no comparison across cues was measured | Practitioner heuristic |
 
 ## 03-order-of-elimination.md
 
@@ -47,6 +55,12 @@ Comparatives that could not be supported ("more often than any other", "neutrali
 | One deliberate reframe reduces the framing distortion in a professional acceptance decision | Application of the three studies above to a setting none of them measured. Until v1.2.0 the chapter read "neutralizes most of the framing effect"; no study supports "most" and the word was removed | Supported, partial |
 | Accepting AI output is the default because rejecting costs more effort than accepting | No study cited; an argument from the asymmetry of effort | Practitioner heuristic |
 
+## 05-trade-offs.md
+
+| Claim in the chapter | Source | Status |
+|---|---|---|
+| A model told to be thorough and brief will trade one against the other somewhere in the document, on grounds nobody chose, differently on each run | The author's practice. Run-to-run variation is a property of sampled generation (see the 06 row below); where and how the trade falls is not measured here | Practitioner observation |
+
 ## 06-averages-variances-uncertainties.md
 
 | Claim in the chapter | Source | Status |
@@ -54,6 +68,18 @@ Comparatives that could not be supported ("more often than any other", "neutrali
 | Plans evaluated at the average of their inputs are systematically wrong: the flaw of averages | Savage, S. L. (2002). The flaw of averages. *Harvard Business Review*, November 2002. Savage, S. L. (2009). *The Flaw of Averages: Why We Underestimate Risk in the Face of Uncertainty*. Wiley. | Established |
 | When consequences are nonlinear, the outcome at the average is not the average of the outcomes | Jensen, J. L. W. V. (1906). Sur les fonctions convexes et les inégalités entre les valeurs moyennes. *Acta Mathematica*, 30, 175 to 193. | Established |
 | The same prompt, model and documents produce different work across runs, and the differences are often material | The author's practice for the second clause. The first clause is a property of sampled generation and is not disputed; the frequency and materiality of the differences are not measured here, and the chapter now tells recurring processes to measure their own spread | Practitioner observation |
+
+## 07-the-confirmation.md
+
+| Claim in the chapter | Source | Status |
+|---|---|---|
+| Organizations that treat refusals as delivery failures are training their humans to stop finding them | No study cited; an argument from how incentives shape reporting | Practitioner heuristic |
+
+## prompts/dod-interrogator.md
+
+| Claim in the file | Source | Status |
+|---|---|---|
+| Two passes usually empty the findings | The author's practice; not measured. The one logged suite run (T5) ran a single pass per case and does not test it; on the strong-draft fixture (IR-07) that single pass returned 22 findings | Practitioner heuristic |
 
 ## The closing illustration
 

@@ -6,11 +6,11 @@ Part of [The Definition of Done Is the Work of the Human](../../README.md). Run 
 
 **When.** 18 October 2026 (KST), finished 10:27 KST, run T5 of the whole-account review of 15 October 2026.
 
-**Models.** Tested: `claude-opus-5-5`. Scorer: `claude-sonnet-5-5`, a different model, so no model graded itself. LLM scoring is developer testing, not independent assurance; the named reviewer's review is pending.
+**Models.** Tested: `claude-opus-5-5`. Scorer: `claude-sonnet-5-5`, a different model, so no model graded itself. LLM scoring is developer testing, not independent assurance. The named reviewer, Michael Paik, reviewed the run on 19 October 2026 (KST) and concurs with every scorer verdict, as section 4 of the regression suite records.
 
-**How produced.** A session harness sent each case to the Anthropic API with the prompt as the system prompt, no tools, max_tokens 16,000 and one fresh session per case, then sent the transcript, the case's pass criteria and the suite's acceptance rule to the scorer. The harness was run by Michael Paik in his own Terminal; the API key never entered the session. `summary.json` is the harness's run summary (repository HEAD, the system prompt's digest, models, max_tokens, finish time and the twelve verdicts).
+**How produced.** A session harness sent each case to the Anthropic API with the prompt as the system prompt, no tools, max_tokens 16,000 and one fresh session per case, then sent the transcript, the case's pass criteria and the suite's acceptance rule to the scorer. The harness was run by Michael Paik in his own Terminal; the API key never entered the session. `summary.json` is the harness's run summary (repository HEAD, the system prompt's digest, models, max_tokens, finish time and the twelve verdicts). Its `system_files` key is the path of the extracted prompt on the maintainer's local machine at run time, not a file in this repository; the file it names is the Interrogator prompt below the horizontal rule, identified by the digest above.
 
-**Integrity.** Each transcript is copied byte for byte from the harness output; the only change is the closing line appended at the end. `summary.json` is copied byte for byte and carries nothing appended. SHA-256 of each transcript as the harness wrote it:
+**Integrity.** Each transcript is copied byte for byte from the harness output; the only change is a horizontal rule and the closing line appended at the end (48 bytes). `summary.json` is copied byte for byte and carries nothing appended. SHA-256 of each transcript as the harness wrote it:
 
 | File | Case | Scorer verdict | SHA-256 of the harness output |
 |---|---|---|---|

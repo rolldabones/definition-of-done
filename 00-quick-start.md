@@ -33,7 +33,7 @@ Note what the tests are doing. Tests 1 and 2 are worst-case tests: one misstated
 
 ## Deadline pressure
 
-When time runs out and the work does not meet the definition, three honest outcomes exist: refuse to release, obtain more time or amend the definition openly, under your name, with the residual risk stated. "Done enough given the deadline" is not a fourth outcome. It is an amendment seeking anonymity. Sign it or do not release it.
+When time runs out and the work does not meet the definition, three honest responses exist: refuse to release, obtain more time or amend the definition openly, under your name, with the residual risk stated. "Done enough given the deadline" is not a fourth response. It is an amendment seeking anonymity. Sign it or do not release it.
 
 ## Where to go deeper
 

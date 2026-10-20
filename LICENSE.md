@@ -2,7 +2,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 
 # License
 
-This repository, including the method, the instruments, the worked example and the prompt, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+This repository, including the method, the instruments, the worked examples, the prompt, the regression suite and the tool, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
 You are free to:
 

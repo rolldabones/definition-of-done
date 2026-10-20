@@ -4,9 +4,9 @@
 
 **Son-U Michael Paik**
 CEO, GRC Solutions Korea
-[www.grcskorea.com](http://www.grcskorea.com)
+[www.grcskorea.com](https://www.grcskorea.com)
 
-| Version | Date | Status | License |
+| Version | Date (KST: Korea Standard Time) | Status | License |
 |---|---|---|---|
 | v1.2.7 | 2026-10-20 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
@@ -20,7 +20,7 @@ Three links, in the order a first-time reader needs them. Everything after the C
 
 1. **Define a task.** Complete the [Definition of Done instrument](templates/definition-of-done-template.md) before any AI touches the work. Low-stakes work completes three sections and writes one to three tests; the [tier table](#proportionate-use-the-tier-table) states what each tier completes.
 2. **Check the work.** Complete the [Confirmation Record](templates/confirmation-record-template.md) before anyone relies on the output. Three outcomes are lawful: confirm, refuse or amend and confirm.
-3. **Study an example.** The [Tier 1 example](examples/worked-example-tier-1-meeting-summary.md) is an internal meeting summary on one page, the minimum paperwork the method asks for. The [Tier 3 example](examples/worked-example-dpa-review.md) is a vendor DPA review with a refusal, a full claim register and a recorded amendment.
+3. **Study an example.** The [Tier 1 example](examples/worked-example-tier-1-meeting-summary.md) is an internal meeting summary on one page, the minimum paperwork the method asks for. The [Tier 3 example](examples/worked-example-dpa-review.md) is a vendor data processing agreement (DPA) review with a refusal, a full claim register and a recorded amendment.
 
 The [Quick Start](00-quick-start.md) puts the whole loop on one page.
 
@@ -63,7 +63,7 @@ The two moments bracket the middle, where bounded delegation happens under the m
 
 ## Why the Definition of Done Is the Locus of the Three Doctrines
 
-The three doctrines of this body of work are Slow AI, Informed Intent and Final Liability. Each is stated at board altitude in [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards), at enterprise altitude in the [GRC Workbook](https://github.com/rolldabones/grc-workbook) and at task altitude in the [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen). The Definition of Done is where all three compress into a single working artifact.
+The three doctrines of this body of work are Slow AI, Informed Intent and Final Liability. Each is stated at board altitude in [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards), at enterprise altitude in the [GRC Workbook](https://github.com/rolldabones/grc-workbook) (GRC: governance, risk management and compliance) and at task altitude in the [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen). The Definition of Done is where all three compress into a single working artifact.
 
 **Informed Intent.** The Definition of Done is the task-level instrument of intent. Authorization is meaningful only when the authorizing Human knows what is being authorized, and at task level that knowledge has a test: can the Human state, in advance and in observable terms, what the finished work must do? A Human who cannot state what done looks like has not formed intent. They have formed appetite. The Workbook's five conditions of valid authorization (knowledge, evidence, authority, time and permission, Module 10) apply to the confirmation moment without modification.
 
@@ -95,7 +95,7 @@ This repository is a companion to a four-repository suite. The board directs, th
 | Repository | Audience | Function | License |
 |---|---|---|---|
 | [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards) | Directors, officers, general counsel | Direct. What the board must own, ask and refuse | CC BY-NC-SA 4.0 |
-| [GRC Workbook](https://github.com/rolldabones/grc-workbook) | GC, compliance officers, risk leaders, auditors | Build. The eighteen-module instrument on the OCEG GRC Capability Model 3.5 | CC BY-SA 4.0 |
+| [GRC Workbook](https://github.com/rolldabones/grc-workbook) | General counsel (GC), compliance officers, risk leaders, auditors | Build. The eighteen-module instrument on the OCEG (Open Compliance and Ethics Group) GRC Capability Model 3.5 | CC BY-SA 4.0 |
 | [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen) | Individual professionals, team leads, program owners | Practice. The twelve-step, ten-gate method for governed AI use | CC BY-NC-SA 4.0 |
 | [AI Governance Academy](https://github.com/rolldabones/AI-Governance-Academy) | Advisors and organizations engaging structured delivery | Deliver. Engagement templates for six structured programs | CC BY-NC-SA 4.0 |
 | **The Definition of Done** (this repository) | The Human at the moment of acceptance | Decide. How done is defined and confirmed under the three doctrines | CC BY-NC-SA 4.0 |
@@ -137,6 +137,7 @@ The Kitchen's three risk tiers govern this repository without modification, and 
 | Amendment authority (Section H) | Owner | Owner | Owner with the Approver's sign-off |
 | Imposed constraints | Never amendable by the Owner or Approver at any tier; only the party with authority over the source can waive, and the waiver is recorded | Same | Same |
 | Confirmation Record sections completed | 0, 1, 5 and 6 | Every section | Every section; remediation or rollback plan on file before release |
+| Service Record (Kitchen close-out after Gate 7) | Optional | Recommended | Required |
 | External deployment (Kitchen Gate 7) | None without verification | Reviewer sign-off before release | Sign-off record on file |
 | Interrogator prompt | Rounds 1 and 2, at most five findings | All five rounds | All five rounds |
 
@@ -162,7 +163,11 @@ Where this table and the Kitchen's Tier Application Map are read to conflict, th
 | [examples/worked-example-dpa-review.md](examples/worked-example-dpa-review.md) | A Tier 3 task through both instruments, including a refusal, a full claim register and a recorded amendment | You want to see the method on a real deliverable |
 | [prompts/dod-interrogator.md](prompts/dod-interrogator.md) | A model-agnostic prompt that interrogates a draft definition without authoring it | You want the discipline challenged inside the AI session |
 | [prompts/interrogator-regression-suite.md](prompts/interrogator-regression-suite.md) | Behavioral test cases for the Interrogator, an acceptance rule and a results log | You are running the prompt on a new model or changing its text |
-| [tools/check_release.py](tools/check_release.py) | The release consistency check: versions, dates, links, anchors, closing lines, house style | Before every release; the GitHub Actions workflow runs it on every push |
+| [evidence/](evidence/transcripts-2026-10-18-T5/README.md) | Run records: the transcripts and run summary of the regression suite's logged runs, copied byte for byte | You want to audit a logged suite run against its evidence |
+| [tools/check_release.py](tools/check_release.py) | The release consistency check: versions, dates, links, anchors, cross-file consistency, closing lines and em dashes | Before every release; the GitHub Actions workflow runs it on every push |
+| [.github/workflows/checks.yml](.github/workflows/checks.yml) | The GitHub Actions workflow that runs the release consistency check | You want to see what runs on every push and pull request |
+| [CITATION.cff](CITATION.cff) | The machine-readable citation | You are citing this repository |
+| [LICENSE.md](LICENSE.md) | The license: CC BY-NC-SA 4.0, with the legal code | You want to reuse or adapt the material |
 
 ## How to Use This Repository
 
@@ -172,9 +177,9 @@ Where this table and the Kitchen's Tier Application Map are read to conflict, th
 
 **Confirming today.** Read [07](07-the-confirmation.md) and complete the [Confirmation Record](templates/confirmation-record-template.md). Three outcomes are available. Pick one and sign it.
 
-**A team lead or trainer.** Run the [worked example](examples/worked-example-dpa-review.md) as an exercise: give the team the task, have them write the definition cold, then compare against the worked instrument. Load the [interrogator prompt](prompts/dod-interrogator.md) as the session prompt so the discipline is enforced inside the tool, and run the [regression suite](prompts/interrogator-regression-suite.md) once on the model your team uses before relying on the prompt's refusals.
+**A team lead or trainer.** Run the [worked example](examples/worked-example-dpa-review.md) as an exercise: give the team the task, have them write the definition cold, then compare against the worked instrument. Load the [interrogator prompt](prompts/dod-interrogator.md) as the session prompt so the discipline is challenged inside the tool. The prompt enforces the authoring boundary only on an accepted configuration, as design principle 2 states, and the [regression suite](prompts/interrogator-regression-suite.md) logs no accepted configuration yet, so run the suite once on the model your team uses before relying on the prompt's refusals.
 
-**An Academy facilitator.** The seven numbered files map to a half-day module. Files 01 and 02 are the instruction block, files 03 through 06 are breakout lenses and file 07 plus the templates are the closing exercise.
+**An Academy facilitator.** The numbered files 01 to 07 map to a half-day module. Files 01 and 02 are the instruction block, files 03 through 06 are breakout lenses and file 07 plus the templates are the closing exercise.
 
 ## Not the Scrum Definition of Done
 
@@ -205,9 +210,11 @@ The GRC Workbook uses the mechanical watch as its recurring illustration and the
 
 ## Part of the ecosystem
 
-This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function inside the four-repository suite; the canonical map places all repositories in one structure. Nearest neighbors:
+This repository is part of the [rolldabones governance ecosystem](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md), classified in Layer 1 (doctrine and method). The Where This Sits section above describes its function inside the four-repository suite; the canonical map places all repositories in one structure.
 
 The three doctrines are used in this repository as stated in [DOCTRINE.md](https://github.com/rolldabones/rolldabones/blob/main/DOCTRINE.md), the account's single normative statement. Where this repository restates a doctrine, it restates it at its own altitude and adds instruments, not doctrine (ECOSYSTEM.md protocol item 6).
+
+Nearest neighbors:
 
 - [slow-ai-kitchen](https://github.com/rolldabones/slow-ai-kitchen) - the method whose Gates 1, 6 and 7 this repository is the depth work inside
 - [origami-method](https://github.com/rolldabones/origami-method) - the workflow discipline whose context packet begins with a definition of done
@@ -237,7 +244,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 Son-U Michael Paik is an attorney, AI auditor and governance architect with more than 25 years of experience designing risk and compliance systems for cross-border institutions in regulated, high-stakes sectors across Asia, Europe and the United States. He is the former General Counsel of BABL AI, a global AI audit provider, and Founder and Chief Executive Officer of GRC Solutions Korea. He holds a Juris Doctor from Columbia Law School, a Master of Business Administration from the Yale School of Management and a Bachelor of Arts in Economics from Syracuse University, is admitted to the New York Bar and holds AI audit certifications from BABL AI and ForHumanity, including certifications under the EU AI Act, GDPR and the Digital Services Act.
 
-**GRC Solutions Korea:** [www.grcskorea.com](http://www.grcskorea.com)
+**GRC Solutions Korea:** [www.grcskorea.com](https://www.grcskorea.com)
 **LinkedIn:** [linkedin.com/in/sonupaik](https://linkedin.com/in/sonupaik)
 
 ---

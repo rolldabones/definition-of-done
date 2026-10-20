@@ -25,7 +25,7 @@ What it checks, and why each check exists:
   4. Dates. Every CHANGELOG.md entry heading is "## vX.Y.Z (YYYY-MM-DD)" with a real date, the
      entries run in descending version order and no entry is dated after the README release.
   5. Cross-file consistency of the things the v1.1.2 review found inconsistent: the README tier
-     table's test counts against the template's Section A heading; the Kitchen version pinned in
+     table's test counts for all three tiers against the template's Section A heading; the Kitchen version pinned in
      the README's governing-versions table against both templates' "Kitchen version applied"
      fields; each template's stated instrument version against its own masthead.
   6. House style. Every markdown file except LICENSE.md ends with the closing line and contains
@@ -310,10 +310,14 @@ def main(root):
         if not hm:
             fail("definition-of-done-template.md: Section A heading with its test counts not found")
         else:
-            t1 = tier_row.group(1).replace(" to ", " to ")
+            t1 = tier_row.group(1)
             t2 = tier_row.group(2)
+            t3 = tier_row.group(3)
             heading_counts = hm.group(1)
-            if not (t2 in heading_counts and t1 in heading_counts):
+            if t3 != t2:
+                fail(f"README.md: tier table test counts for Tier 2 ('{t2}') and Tier 3 ('{t3}') differ; "
+                     f"the template's Section A heading states one count for both")
+            elif not (t2 in heading_counts and t1 in heading_counts):
                 fail(f"definition-of-done-template.md: Section A heading '({heading_counts})' does not carry the README tier table counts "
                      f"('{t2}' for Tier 2 and 3, '{t1}' for Tier 1)")
             else:

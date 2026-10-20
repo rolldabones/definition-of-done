@@ -2,19 +2,19 @@
 
 Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.5 | CC BY-NC-SA 4.0
 
-A compressed but complete pass through both instruments on one real task shape, at Tier 3. Entries are illustrative and the vendor, the DPA and the playbook are fictional. The example includes a refusal, because a worked example in which everything passes teaches the wrong lesson, and it shows the full claim register and the full amendment record, because an example that summarizes its own evidence teaches the wrong habit. For the minimum paperwork at the other end of the scale, see the [Tier 1 example](worked-example-tier-1-meeting-summary.md).
+A compressed but complete pass through both instruments on one real task shape, at Tier 3. Entries are illustrative and the vendor, the DPA and the playbook are fictional. The example includes a refusal, because a worked example in which everything passes teaches the wrong lesson, and it shows the full claim register and the full amendment record, because an example that summarizes its own evidence teaches the wrong habit. For the minimum paperwork at the other end of the scale, see the [Tier 1 example](worked-example-tier-1-meeting-summary.md). The method, instrument and Kitchen versions the records name (definition-of-done v1.2.0, template v1.2.0, Slow AI Kitchen v2.9.1) are historical: they are the versions under which the example was first written, and the v1.2.5 revision did not re-date them. A new record names the current release and the versions in the README's [governing versions](../README.md#governing-methods-and-versions) table.
 
 ---
 
 ## The task
 
-In-house counsel must review a vendor's data processing agreement (DPA) against the company playbook before a SaaS renewal, using an approved AI assistant for the first-pass issue spotting and clause comparison. Personal data of EU and Korean customers is processed. Renewal deadline is in six business days.
+In-house counsel must review a vendor's data processing agreement (DPA) against the company playbook before a software-as-a-service (SaaS) renewal, using an approved AI assistant for the first-pass issue spotting and clause comparison. Personal data of EU and Korean customers is processed. Renewal deadline is in six business days.
 
 ## The Definition of Done (as completed, abridged)
 
-**Section 0.** Task: first-pass DPA review memo identifying playbook deviations and recommended positions. Tier 3 (regulated data, external counterparty, legal exposure). Intended use: basis for counsel's markup and negotiation posture. Decision supported: sign, negotiate or escalate. Non-recoverable domain: legal and regulatory. Method versions: definition-of-done v1.2.0, Definition of Done template v1.2.0, Slow AI Kitchen v2.9.1. Roles: counsel is Preparer, Builder and Owner, working with the approved assistant as the tool. A second lawyer is Reviewer. The GC is Approver and makes the release decision.
+**Section 0.** Task: first-pass DPA review memo identifying playbook deviations and recommended positions. Tier 3 (regulated data, external counterparty, legal exposure). Intended use: basis for counsel's markup and negotiation posture. Decision supported: sign, negotiate or escalate. Non-recoverable domain: legal and regulatory. Method versions: definition-of-done v1.2.0, Definition of Done template v1.2.0, Slow AI Kitchen v2.9.1. Roles: counsel is Preparer, Builder and Owner, working with the approved assistant as the tool. A second lawyer is Reviewer. The general counsel (GC) is Approver and makes the release decision.
 
-**Section A. Tests.** Seven tests, the Tier 3 maximum. Test 7 is the one the amendment later touches, so it is stated here in the words that were amended.
+**Section A. Tests.** Seven tests, the Tier 3 maximum. Test 7 is the one the amendment later touches, so it is stated here in its pre-amendment words.
 
 | # | Test | Evidence expected |
 |---|---|---|
@@ -32,7 +32,7 @@ In-house counsel must review a vendor's data processing agreement (DPA) against 
 |---|---|---|---|
 | No legal position asserted contrary to the playbook without an escalation flag | Constraint | Playbook policy | Yes, by the GC as playbook owner, in writing, under the playbook's own amendment rule |
 | Customer personal data is not pasted into unapproved tools | Constraint | Tool registry (Kitchen Step 10) | No. The AI Owner may authorize a tool through the registry, which is a registry change, not a waiver on this task |
-| The transfer mechanism relied on for EU and Korean data is one the playbook accepts (GDPR Chapter V and the PIPA overseas-transfer provisions, as applied by the playbook) | Constraint | Law, as applied by the playbook | No |
+| The transfer mechanism relied on for EU and Korean data is one the playbook accepts (General Data Protection Regulation (GDPR) Chapter V and the overseas-transfer provisions of Korea's Personal Information Protection Act (PIPA), as applied by the playbook) | Constraint | Law, as applied by the playbook | No |
 | Brevity; deviations ranked by consequence | Preference | Owner | Owner |
 
 **Section C. Trade-off statement.** Privileged: accuracy of deviation identification. Subordinated: completeness of drafting suggestions, floor being that every escalation-class deviation carries at least one fallback or an express "no fallback, escalate". Why: six-day window; wrong deviations are non-recoverable, thin suggestions are recoverable. Accepted by: counsel (Owner). Absorbed by: negotiation timeline if suggestions prove thin. Note the relationship between this floor and Test 7: Test 7 requires a fallback for every deviation; the Section C floor requires one for every escalation-class deviation. Test 7 is the Owner's preference and can be amended. The floor is the settlement's term and is checked at confirmation.
@@ -72,7 +72,7 @@ The assistant produced a fluent, well-structured clause table and memo skeleton 
 | C-11 | Breach notice content matches the playbook minimum (table row 6) | cl. 8.2 | Yes | |
 | C-12 | Audit right once per year on 30 days' notice (table row 7) | cl. 9.1 | Yes | |
 | C-13 | Audit satisfied by third-party reports unless a regulator requires more (table row 7) | cl. 9.2 | Yes | Audit-right limitation, correctly identified as a deviation |
-| C-14 | EU transfers under the SCCs, controller-to-processor module (table row 8) | cl. 10.1, Annex 1 Part C | Yes | |
+| C-14 | EU transfers under the standard contractual clauses (SCCs), controller-to-processor module (table row 8) | cl. 10.1, Annex 1 Part C | Yes | |
 | C-15 | Korean transfer basis stated as data subject consent obtained by the customer (table row 8) | cl. 10.3 | Yes | |
 | C-16 | Return or deletion within 90 days of termination (table row 9) | cl. 11.1 | Yes | |
 | C-17 | Certificate of deletion on request (table row 9) | cl. 11.2 | Yes | |

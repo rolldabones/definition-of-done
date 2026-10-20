@@ -2,7 +2,7 @@
 
 Part of [The Definition of Done Is the Work of the Human](../README.md) | v1.2.0 | CC BY-NC-SA 4.0
 
-The minimum paperwork. One professional, one low-stakes task, both instruments completed at the depth the README's [tier table](../README.md#proportionate-use-the-tier-table) requires for Tier 1: Sections 0, A and H of the definition, Sections 0, 1, 5 and 6 of the record, one to three tests. Everything below took about ten minutes around the assistant's work. Names are placeholders. For the full apparatus at the other end of the scale, see the [DPA review example](worked-example-dpa-review.md).
+The minimum paperwork. One professional, one low-stakes task, both instruments completed at the depth the README's [tier table](../README.md#proportionate-use-the-tier-table) requires for Tier 1: Sections 0, A and H of the definition, Sections 0, 1, 5 and 6 of the record, one to three tests. Everything below took about ten minutes around the assistant's work. Names are placeholders. The method, instrument and Kitchen versions the records name (definition-of-done v1.2.0, template v1.2.0, Slow AI Kitchen v2.9.1) are historical: they are the versions in force when the example was written, and a new record names the current release and the versions in the README's [governing versions](../README.md#governing-methods-and-versions) table. For the full apparatus at the other end of the scale, see the [DPA review example](worked-example-dpa-review.md).
 
 ---
 
@@ -17,7 +17,7 @@ A project lead posts a summary of the weekly project meeting to the team channel
 | Field | Entry |
 |---|---|
 | Task (one sentence) | Post a summary of Tuesday's project meeting to the team channel: one paragraph, decisions taken, action list |
-| Date and timezone | Tuesday, 14:10, Asia/Seoul |
+| Date and timezone | Tuesday 22 September 2026, 14:10, Asia/Seoul |
 | Risk tier with one-line basis | Tier 1: internal, non-public, read by the people who were in the room, no decision rests on it alone |
 | Intended use of the output | Team channel post; the action list is the team's working reminder until the next meeting |
 | Audience | The eight attendees and two absentees |
@@ -45,7 +45,7 @@ The lead read the transcript once (Kitchen Gate 2, the light form: a skim and a 
 
 ## The Confirmation Record (Sections 0, 1, 5 and 6)
 
-**Section 0.** Artifact: meeting summary, draft 1 then draft 2. Definition: the three tests above, amendment log empty. Tier 1. Confirmer: the project lead, Owner. Date and time: Tuesday 14:40, Asia/Seoul; material available since 14:25. Method versions: definition-of-done v1.2.0, Confirmation Record template v1.2.0, Slow AI Kitchen v2.9.1.
+**Section 0.** Artifact: meeting summary, draft 1 then draft 2. Definition: the three tests above, amendment log empty. Tier 1. Confirmer: the project lead, Owner. Date and time: Tuesday 22 September 2026, 14:40, Asia/Seoul; material available since 14:25. Method versions: definition-of-done v1.2.0, Confirmation Record template v1.2.0, Slow AI Kitchen v2.9.1.
 
 **Section 1, first run, against draft 1.**
 
