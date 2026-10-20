@@ -11,6 +11,11 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.2.7 (2026-10-20)
+
+- LICENSE: two defects against the Creative Commons legal code corrected (the space in 'ShareAlike. In'; the CC0 sentence of the closing notice). Operative terms unchanged.
+- Version table, How to Cite and `CITATION.cff` to v1.2.7 in lockstep. Companion mastheads unchanged.
+
 ## v1.2.6 (2026-10-19)
 
 Patch, from the weekly maintenance sweep of 19 October 2026 (KST) and Michael Paik's review of the T5 runs, completed 19 October 2026 (KST), on which he concurs with the scoring as recorded. The weekly sweep raised A1 HIGH at `prompts/interrogator-regression-suite.md:88` ("its named reviewer's review is pending", true when written on 18 October 2026). No requirement changes, no instrument field changes, no change to what the Interrogator does.
