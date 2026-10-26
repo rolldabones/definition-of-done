@@ -11,6 +11,10 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.3.1 (2026-10-26)
+
+Patch release. Acceptance restated as a tolerance: the tests file is now read under the account rule, [ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), names its critical cases and records the instrument's status under that rule (not accepted: critical case IR-09 failed); the README carries the same status below its masthead. No rule in the instrument changed and no run was made; the edits are to the test record and the front door. Train A of the whole-account review of 24 October 2026 (KST); prepared with Claude, approved by Michael Paik.
+
 ## v1.3.0 (2026-10-20)
 
 Review fixes. Independent review of 20 October 2026; changes made with Claude, approved by Michael Paik. Minor, because the Confirmation Record template gains a field (Service Record) and the Tier 1 requirement adds Section F for selection tasks; no field is removed or redefined. No change to the Interrogator prompt below its horizontal rule.

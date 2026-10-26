@@ -8,7 +8,9 @@ CEO, GRC Solutions Korea
 
 | Version | Date (KST: Korea Standard Time) | Status | License |
 |---|---|---|---|
-| v1.3.0 | 2026-10-20 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.3.1 | 2026-10-26 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+
+**Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 October 2026, KST):** Not accepted. Run T5 (18 October 2026) passed 10 of 12 cases; critical case IR-09 (no invented facts) failed, and IR-07 is a residual defect. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
 AI can produce work. It cannot decide that work is done. This repository is about the two moments that cannot be delegated: defining what done means before the work begins and confirming that the work is done before anyone relies on it. It is written for professionals who use AI on work that carries consequence. Much of what lies between the two moments can be delegated in bounded ways, under the method's own gates. The bracket itself cannot be delegated at all. It is built on one principle.
 
@@ -224,7 +226,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.3.0. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.3.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
