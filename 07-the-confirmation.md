@@ -2,7 +2,7 @@
 
 *The protocol, the three lawful outcomes and confirming under pressure*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.2 | CC BY-NC-SA 4.0
 
 > **The closing.** *At closing, someone signs a bring-down certificate: the representations made at signing remain true today. The certificate exists because time passed between the definition and the confirmation, and the signature exists because a certificate nobody signs is a memo. The signature is the point.*
 
@@ -48,7 +48,7 @@ There is no fourth outcome. "Substantially done", "done enough given the deadlin
 
 ## Confirming under pressure
 
-Pressure does not change the protocol. It changes the honesty required to run it. The five conditions of a valid authorization from Workbook Module 10 apply to the confirmation as written: knowledge, evidence, authority, time and permission. Two fail most often under pressure.
+Pressure does not change the protocol. It changes the honesty required to run it. The five authorizer conditions, as Workbook Module 10 tests them, apply to the confirmation as written: Knowledge, Evidence, Authority, Time, Permission. Two fail most often under pressure.
 
 **Time.** A confirmation demanded in the gap between the output landing and the meeting starting is reflexive, not considered. The architecture discipline applies: the record shows when the material was available, when the decision was made and what happened in between. If the time was not there, the confirmation was not either, whatever the signature says.
 

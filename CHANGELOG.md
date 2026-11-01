@@ -11,6 +11,15 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.3.2 (2026-11-02)
+
+Patch release. Train B of the improvement rotation (review of 24 October 2026, reader report 06). Prepared with Claude, approved by Michael Paik.
+
+- **Governing versions re-verified and re-pinned.** Slow AI Kitchen v3.0.1 to v3.3.2 (no step, gate, tier or role changed since v3.0.1; the releases between added derivation modules and corrected sources), DOCTRINE.md v1.2.0 to v1.2.1 (no doctrine added, renamed or varied), ECOSYSTEM.md v1.7.28 to v2.1.9 (this repository still Layer 1; the maintenance protocol reworded, not changed in what it asks of this repository), GRC Workbook v4.3.2 to v4.3.6 (Module 10 keeps the five conditions and gains an instrument record; the Module 11 evidence pack unchanged), Risk-Informed Decision Making Prompt v1.6.0 to v1.7.2 (A2, A5, A6, the Bias Check and the uncertainty routing unchanged; only limb (b) of the high-uncertainty test changed, which this repository does not use). The tier-table paragraph and both templates' "Kitchen version applied" fields name v3.3.2, as `tools/check_release.py` requires.
+- **Doctrine wording.** `00-quick-start.md` no longer states Slow AI as a speed ("no further than you can verify" in place of "at the speed you can verify"; DOCTRINE.md section 1: a precondition, not a speed limit). `04-choice-architecture.md` and `07-the-confirmation.md` list the five authorizer conditions in the section 8 list form.
+- **Recorded:** Michael Paik's GitHub edit 2f00bf8 of 1 November 2026, made outside the release process, relabeled the README's evidence row link from "evidence/" to "Run T5 evidence"; it is kept.
+- Companion mastheads of the five files whose substance changed to v1.3.2; README version table, How to Cite and `CITATION.cff` to v1.3.2.
+
 ## v1.3.1 (2026-10-26)
 
 Patch release. Acceptance restated as a tolerance: the tests file is now read under the account rule, [ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), names its critical cases and records the instrument's status under that rule (not accepted: critical case IR-09 failed); the README carries the same status below its masthead. No rule in the instrument changed and no run was made; the edits are to the test record and the front door. Train A of the whole-account review of 24 October 2026 (KST); prepared with Claude, approved by Michael Paik.
