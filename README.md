@@ -165,7 +165,7 @@ Where this table and the Kitchen's Tier Application Map are read to conflict, th
 | [examples/worked-example-dpa-review.md](examples/worked-example-dpa-review.md) | A Tier 3 task through both instruments, including a refusal, a full claim register and a recorded amendment | You want to see the method on a real deliverable |
 | [prompts/dod-interrogator.md](prompts/dod-interrogator.md) | A model-agnostic prompt that interrogates a draft definition without authoring it | You want the discipline challenged inside the AI session |
 | [prompts/interrogator-regression-suite.md](prompts/interrogator-regression-suite.md) | Behavioral test cases for the Interrogator, an acceptance rule and a results log | You are running the prompt on a new model or changing its text |
-| [evidence/](evidence/transcripts-2026-10-18-T5/README.md) | Run records: the transcripts and run summary of the regression suite's logged runs, copied byte for byte | You want to audit a logged suite run against its evidence |
+| [Run T5 evidence](evidence/transcripts-2026-10-18-T5/README.md) | Run records: the transcripts and run summary of the regression suite's logged runs, copied byte for byte | You want to audit a logged suite run against its evidence |
 | [tools/check_release.py](tools/check_release.py) | The release consistency check: versions, dates, links, anchors, cross-file consistency, closing lines and em dashes | Before every release; the GitHub Actions workflow runs it on every push |
 | [.github/workflows/checks.yml](.github/workflows/checks.yml) | The GitHub Actions workflow that runs the release consistency check | You want to see what runs on every push and pull request |
 | [CITATION.cff](CITATION.cff) | The machine-readable citation | You are citing this repository |
