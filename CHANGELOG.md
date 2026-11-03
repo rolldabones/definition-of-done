@@ -11,6 +11,14 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.4.0 (2026-11-04)
+
+Minor release. A completion of the confirmation protocol, on Michael Paik's ruling of 4 November 2026. Prepared with Claude, approved by Michael Paik.
+
+- **`07-the-confirmation.md` v1.4.0, protocol step 2.** Work a tool or agent did outside the conversation is confirmed from the system that owns the state, never from the agent's own report; a second model reading only that report is a second opinion, not evidence; a report that reads stronger than the record is traced to its first promotion, the earliest step at which the claimed state outran the evidence; a source the definition names that the system could not reach is recorded as a refusal naming the missing access, not as a confirmation of a substitute. The three lawful outcomes are unchanged.
+- **`SOURCES.md` v1.4.0.** One row under 07 for the claim, sourced to Advani (2026), arXiv:2606.09863, at Supported, partial, with the occasion credited to Nate B. Jones's public video and subscriber post of 7 August 2026; no members-only page is cited. The first-promotion vocabulary is his.
+- README version table, How to Cite and `CITATION.cff` to v1.4.0.
+
 ## v1.3.2 (2026-11-02)
 
 Patch release. Train B of the improvement rotation (review of 24 October 2026, reader report 06). Prepared with Claude, approved by Michael Paik.

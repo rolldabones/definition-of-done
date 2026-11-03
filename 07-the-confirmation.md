@@ -2,7 +2,7 @@
 
 *The protocol, the three lawful outcomes and confirming under pressure*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.2 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.4.0 | CC BY-NC-SA 4.0
 
 > **The closing.** *At closing, someone signs a bring-down certificate: the representations made at signing remain true today. The certificate exists because time passed between the definition and the confirmation, and the signature exists because a certificate nobody signs is a memo. The signature is the point.*
 
@@ -27,7 +27,7 @@ Refusal is different. Refusal requires no independence and no seniority. Anyone 
 Run in order. Depth scales with tier. The [Confirmation Record template](templates/confirmation-record-template.md) implements each step as a field.
 
 1. **Fix the standard.** Retrieve the definition of done with its amendment log, and note the method version it names, because the record is read against that release of this repository and the governing versions pinned in its README. If the definition changed and the log does not show it, stop: the standard is compromised and the first task is to reconstruct and record what happened, not to confirm against a document that drifted.
-2. **Test by test, with evidence.** Each pass or fail test receives a result and an evidence pointer: the checked source, the recomputed number, the second review, the sample examined. "Looks right" is not evidence. This is Gate 6 of the Kitchen producing its evidence and validation log.
+2. **Test by test, with evidence.** Each pass or fail test receives a result and an evidence pointer: the checked source, the recomputed number, the second review, the sample examined. "Looks right" is not evidence. This is Gate 6 of the Kitchen producing its evidence and validation log. Where a tool or agent did the work outside the conversation (a file written, a message sent, a record changed), its own report of completion is not a pointer: the pointer is read from the system that owns the state, and a second model reading only the first one's account is a second opinion, not evidence. Where the report reads stronger than the record, trace the first promotion, the earliest step at which the claimed state outran the evidence (requested, accepted, approved, posted, settled is one such ladder), and test from that step. Where the system that did the work could not reach a source the definition names, the lawful record is a refusal naming the missing access, not a confirmation of a substitute that carries the right name.
 3. **Run the Salience Audit against the artifact.** The seven questions from [Salient Factors](02-salient-factors.md), now aimed at the finished work. The audit at confirm time hunts what the artifact's own polish hides: absences, naked assertions, inherited agendas.
 4. **Resurrect the strongest discard.** For selection tasks, the one-paragraph test from [Order of Elimination](03-order-of-elimination.md): would the strongest eliminated alternative still lose on what is known today?
 5. **Check the settlement.** The trade-off honor check from [Trade-Offs](05-trade-offs.md): did the work keep the privileged criterion and the subordinated criterion's floor, or did it quietly re-trade?

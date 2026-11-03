@@ -2,7 +2,7 @@
 
 *What the chapters' empirical claims rest on*
 
-Part of [The Definition of Done Is the Work of the Human](README.md) | v1.3.0 | CC BY-NC-SA 4.0
+Part of [The Definition of Done Is the Work of the Human](README.md) | v1.4.0 | CC BY-NC-SA 4.0
 
 This repository asks the Human to distinguish the confidence of the prose from the state of the record. This file applies that rule to the repository itself. Every claim in the chapters that asserts something about how people or systems behave is listed here with its source, where one exists, and with one of four labels. A claim with no entry here is doctrine, method or argument, which the reader accepts or rejects on its reasoning, not a claim about the world.
 
@@ -74,6 +74,7 @@ Comparatives that could not be supported ("more often than any other", "neutrali
 | Claim in the chapter | Source | Status |
 |---|---|---|
 | Organizations that treat refusals as delivery failures are training their humans to stop finding them | No study cited; an argument from how incentives shape reporting | Practitioner heuristic |
+| A tool's or agent's report of completion is not evidence of the state it reports, and a model reviewer reading only that report detects a false success poorly | Advani, L. (2026). From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents. arXiv:2606.09863, v1, 1 June 2026, https://arxiv.org/abs/2606.09863. The abstract, read 4 November 2026 (KST): 9,876 tau2-bench and 1,879 AppWorld trajectories; false success common and varying by setting; language-model judges at or below 0.65 on tau2-bench and 0.54 on AppWorld in area under the receiver operating characteristic curve (AUROC), relying on surface cues such as confident closing language rather than verified state changes. Occasion: Nate B. Jones, "Your Chatbot Hallucinated in 2024. Your Agent Lies in 2026.", AI News & Strategy Daily (YouTube), 7 August 2026, https://www.youtube.com/watch?v=2wVvdX0ZxVw, and his post of the same day, https://natesnewsletter.substack.com/p/ai-agent-false-success (subscriber post); the first-promotion trace follows his formulation | Supported, partial: simulated benchmarks, not professional acceptance decisions; the study measures the behavior and does not establish its cause |
 
 ## prompts/dod-interrogator.md
 
