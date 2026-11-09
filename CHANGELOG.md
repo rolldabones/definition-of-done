@@ -11,6 +11,14 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.4.1 (2026-11-09)
+
+Patch release. Train D of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
+
+- README, License: one line points to `rolldabones/LICENSING.md` (v1.0.0, new), which states once what the account's two licenses permit, that a Client's use in its own operations may fall outside NonCommercial, how to ask and why the two licenses do not mix.
+- **Governing versions re-verified and re-pinned.** Slow AI Kitchen v3.3.2 to v3.3.7 (no step, gate, tier or role changed: the releases between restated two doctrine lists in a module, took review labels out of amendment notes, linked the Primer's contents, recorded what continued after a stop on the service receipt and pointed the License section to LICENSING.md, read from the Kitchen's CHANGELOG entries v3.3.3 to v3.3.7), DOCTRINE.md v1.2.1 to v1.2.3 (no doctrine added, renamed or varied; v1.2.3 records a register, not a short form), ECOSYSTEM.md v2.1.9 to v2.3.0 (this repository still Layer 1; the protocol now logs changes in HISTORY.md, which asks nothing new of this repository), GRC Workbook v4.3.6 to v4.3.7 and Risk-Informed Decision Making Prompt v1.7.2 to v1.7.3 (each a License-section pointer, train D; no module, assumption or routing changed). The Kitchen pin is carried into the tier table's statement and both templates' "Kitchen version applied" field, which `tools/check_release.py` reads, and their mastheads and Instrument version fields name v1.4.1.
+- README version table, How to Cite and `CITATION.cff` to v1.4.1.
+
 ## v1.4.0 (2026-11-04)
 
 Minor release. A completion of the confirmation protocol, on Michael Paik's ruling of 4 November 2026. Prepared with Claude, approved by Michael Paik.
