@@ -8,7 +8,7 @@ CEO, GRC Solutions Korea
 
 | Version | Date (KST: Korea Standard Time) | Status | License |
 |---|---|---|---|
-| v1.4.1 | 2026-11-09 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
+| v1.4.2 | 2026-11-26 (KST) | Final | CC BY-NC-SA 4.0 (see [License](#license)) |
 
 **Acceptance status ([ACCEPTANCE.md](https://github.com/rolldabones/rolldabones/blob/main/ACCEPTANCE.md), 26 October 2026, KST):** Not accepted. Run T5 (18 October 2026) passed 10 of 12 cases; critical case IR-09 (no invented facts) failed, and IR-07 is a residual defect. The account's status table is in [ECOSYSTEM.md](https://github.com/rolldabones/rolldabones/blob/main/ECOSYSTEM.md#instrument-status).
 
@@ -67,9 +67,9 @@ The two moments bracket the middle, where bounded delegation happens under the m
 
 The three doctrines of this body of work are Slow AI, Informed Intent and Final Liability. Each is stated at board altitude in [AI Governance for Boards](https://github.com/rolldabones/ai-governance-for-boards), at enterprise altitude in the [GRC Workbook](https://github.com/rolldabones/grc-workbook) (GRC: governance, risk management and compliance) and at task altitude in the [Slow AI Kitchen](https://github.com/rolldabones/slow-ai-kitchen). The Definition of Done is where all three compress into a single working artifact.
 
-**Informed Intent.** The Definition of Done is the task-level instrument of intent. Authorization is meaningful only when the authorizing Human knows what is being authorized, and at task level that knowledge has a test: can the Human state, in advance and in observable terms, what the finished work must do? A Human who cannot state what done looks like has not formed intent. They have formed appetite. The Workbook's five conditions of valid authorization (knowledge, evidence, authority, time and permission, Module 10) apply to the confirmation moment without modification.
+**Informed Intent.** The Definition of Done is the task-level instrument of intent. Authorization is meaningful only when the authorizing Human knows what is being authorized, and at task level that knowledge has a test: can the Human state, in advance and in observable terms, what the finished work must do? A Human who cannot state what done looks like has not formed intent. They have formed appetite. The five authorizer conditions (Knowledge, Evidence, Authority, Time, Permission), as Workbook Module 10 tests them, apply to the confirmation moment without modification.
 
-**Slow AI.** Slow AI places inspection at the points where work crosses a governance boundary. A gate is only as good as the standard it inspects against. The Definition of Done is that standard. A gate without a definition is a pause, not a control. The discipline of running at the speed of human verification presupposes that someone has defined what verification must establish.
+**Slow AI.** Slow AI places inspection at the points where work crosses a governance boundary. A gate is only as good as the standard it inspects against. The Definition of Done is that standard. A gate without a definition is a pause, not a control. Slow AI is a precondition, not a speed limit: work is not relied on until it has been verified, and that presupposes that someone has defined what verification must establish.
 
 **Final Liability.** Liability attaches at confirmation. The Kitchen's Gate 5 (Step 6, Final Liability) comes earlier and is a different act: before the work is built, it confirms the Owner named in the task brief at Step 1 and names the reviewer, approver and escalation path. Liability attaches when that Owner confirms the work at Gates 6 and 7. The confirmation is the moment a named Human takes the outcome, and the confirmation record is the evidence that the taking was knowing. Work that is relied on without a confirmed Definition of Done is an orphaned outcome waiting for a name to be assigned after the fact, which is the standard institutional dodge the doctrine exists to prevent.
 
@@ -226,7 +226,7 @@ Nearest neighbors:
 
 ## How to Cite
 
-> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.4.1. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
+> Paik, Son-U Michael. *The Definition of Done Is the Work of the Human*, v1.4.2. GRC Solutions Korea, 2026. https://github.com/rolldabones/definition-of-done
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 

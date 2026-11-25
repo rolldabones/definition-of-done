@@ -11,6 +11,14 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.4.2 (2026-11-26)
+
+Patch release. Two doctrine corrections in the README's section on the three doctrines. Account review of 10 November 2026, High findings, accepted by Michael Paik that day (`account-maintenance/reviews/2026-11-10/Recommended_Rulings_Account_v0.2.md`); worked ahead of the repository's rotation slot on his ruling of 26 November 2026. Prepared with Claude, approved by Michael Paik.
+
+- **Slow AI is not stated as a speed** (CSV row 888, ruling #53). The README said "The discipline of running at the speed of human verification presupposes that someone has defined what verification must establish." DOCTRINE.md section 1 states the doctrine as a precondition, not a speed limit; v1.3.2 removed the same framing from `00-quick-start.md` and missed this sentence. It now reads as a precondition: work is not relied on until it has been verified.
+- **The five authorizer conditions in the section 8 list form** (CSV row 889, ruling #54). The README listed them in lower case with "and"; it now carries the list form verbatim (Knowledge, Evidence, Authority, Time, Permission), as `04-choice-architecture.md` and `07-the-confirmation.md` have since v1.3.2.
+- No instrument, template, prompt or example changes, so the Interrogator's acceptance status is unaffected. README version table, How to Cite and `CITATION.cff` to v1.4.2; no companion masthead moves.
+
 ## v1.4.1 (2026-11-09)
 
 Patch release. Train D of the improvement rotation (review of 24 October 2026). Prepared with Claude, approved by Michael Paik.
