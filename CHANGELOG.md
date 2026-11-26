@@ -11,6 +11,14 @@ Two version series run in this repository and are deliberately separate.
 
 Which series moves, and by how much: a change to the meaning of an existing instrument field, or the removal or renaming of a field or section, is breaking and increments the major version. Adding a field, a section, a lens, a file or a prompt round increments the minor version. A correction that changes no requirement increments the patch version. `tools/check_release.py` checks the lockstep of the first series and the validity of the second on every run, and the GitHub Actions workflow in `.github/workflows/checks.yml` runs it on every push and pull request.
 
+## v1.4.3 (2026-11-26)
+
+Final release: the archived edition. On Michael Paik's ruling of 26 November 2026, recorded in [DISPOSITION.md](https://github.com/rolldabones/rolldabones/blob/main/DISPOSITION.md): the repository is archived in place as a dated edition and receives no corrections after this release. Prepared with Claude, approved by Michael Paik.
+
+- **README:** the archive banner under the title, with the edition date, the version to cite and where the maintained work is. Each acceptance line reads "Last test"; the status it states is unchanged, and no known defect is removed. The line says where the run record and the transcripts are and that they are frozen at this tag.
+- Nothing is removed, renamed or moved, and every other file is unchanged byte for byte.
+- README and `CITATION.cff` to v1.4.3.
+
 ## v1.4.2 (2026-11-26)
 
 Patch release. Two doctrine corrections in the README's section on the three doctrines. Account review of 10 November 2026, High findings, accepted by Michael Paik that day (`account-maintenance/reviews/2026-11-10/Recommended_Rulings_Account_v0.2.md`); worked ahead of the repository's rotation slot on his ruling of 26 November 2026. Prepared with Claude, approved by Michael Paik.
